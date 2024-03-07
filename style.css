@@ -1,0 +1,53 @@
+/*
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: pink;
+    background-image: url("assets/oeuvre/pexels-caleb-oquendo-3018073.jpg");
+}
+
+.container {
+    height: 570px;
+    width: 325px;
+
+    overflow-y: scroll;
+
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;
+    position: relative;
+    left: 510px;
+    top: 50px;
+    z-index: 1;
+    border-radius: 15px;
+    border: none;
+}
+
+.backgroundImage {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+}
+
+#background1 {
+    background-image: url("assets/oeuvre/Test\ Fanny.jpg");
+    background-size: cover;
+}
