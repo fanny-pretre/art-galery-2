@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 /*
 .montserrat-<uniquifier> {
     font-family: "Montserrat", sans-serif;
@@ -24,12 +25,35 @@ body {
     background-image: url("assets/oeuvre/pexels-caleb-oquendo-3018073.jpg");
 }
 
+header img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+h1 {
+    display: none;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 2px transparent solid;
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+
+}
+
 .container {
     height: 570px;
     width: 325px;
-
     overflow-y: scroll;
-
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(3rem);
     scroll-snap-type: y mandatory;
@@ -44,10 +68,34 @@ body {
 .backgroundImage {
     height: 100vh;
     width: 100vw;
+    background-size: cover;
     scroll-snap-align: start;
 }
 
+.sectionFooter {
+
+    position: fixed;
+    inset: auto 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.buttonImg {
+    width: 25px;
+    display: flex;
+    text-align: center;
+}
+
 #background1 {
-    background-image: url("assets/oeuvre/Test\ Fanny.jpg");
-    background-size: cover;
+    background-image: url("assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg");
+    background-position: center;
+}
+
+.navP {
+    text-shadow: 1px 1px 2px #262626;
 }
