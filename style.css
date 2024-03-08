@@ -15,14 +15,25 @@
 
   */
 
+:root {
+    --primary-color: #38BDF2;
+    --secondary-color: black;
+    --background-color: white;
+    --primary-font: "Anton", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-color: pink;
-    background-image: url("assets/oeuvre/pexels-caleb-oquendo-3018073.jpg");
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 header img {
@@ -51,14 +62,14 @@ nav {
 }
 
 .container {
+    height: 100vh;
+    width: 100vw;
     overflow-y: scroll;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(3rem);
     scroll-snap-type: y mandatory;
     position: relative;
     z-index: 1;
-    border-radius: 15px;
-    border: none;
 }
 
 .backgroundImage {
@@ -71,6 +82,7 @@ nav {
 .sectionFooter {
 
     position: fixed;
+    z-index: 10;
     inset: auto 0 0 0;
     justify-content: center;
     align-items: center;
@@ -92,13 +104,13 @@ nav {
 }
 
 .logoSection {
-    width: 5rem;
+    width: 6rem;
     padding: 1rem;
 }
 
 .artInfo {
     position: relative;
-    top: 35rem;
+    top: 33rem;
     padding: 2rem;
 }
 
@@ -131,6 +143,7 @@ h3 {
 #background1 {
     background-image: url("assets/oeuvre/chat.jpg");
     background-position: center;
+    z-index: 9;
 }
 
 #background2 {
@@ -138,11 +151,73 @@ h3 {
     background-position: center;
 }
 
+#background3 {
+    background-image: url("assets/oeuvre/street-art-shipping-container-freight-highway-163811.jpeg");
+    background-position: center;
+}
+
+#background4 {
+    background-image: url("assets/oeuvre/pexels-photo-1194420.jpeg");
+    background-position: center;
+}
+
+#background5 {
+    background-image: url("assets/oeuvre/pexels-photo-1670977.jpeg");
+    background-position: center;
+}
+
+#background5 {
+    background-image: url("assets/oeuvre/jay\ kaes-cover.jpg");
+    background-position: right;
+}
+
+#background6 {
+    background-image: url("assets/oeuvre/musee-art-contemporain-mac-paola-pivi.jpeg");
+    background-position: center;
+}
+
+#background7 {
+    background-image: url("assets/oeuvre/jeff-koons-ballerina-sculpture-3.jpg");
+    background-position: center;
+}
+
+#background8 {
+    background-image: url("assets/oeuvre/Ben-Turnbull-Supermen-Eleven-yatzer-4.jpg");
+    background-position: center;
+}
+
+#background9 {
+    background-image: url("assets/oeuvre/PixArt.png");
+    background-position: right;
+}
+
 .clic {
-    width: 3rem;
+    width: 5rem;
 }
 
 section header {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    background-color: #262626;
+    height: 100vh;
+    width: 100vw;
+}
+
+#footerText {
+    color: white;
+    font-family: "Anton", "sans-serif";
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 0;
+}
+
+#footerLink {
+    color: white;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 2rem;
+    padding: 0 2rem;
+    margin: 0;
 }
