@@ -66,6 +66,13 @@ const worksofArt = [
         label2: "Culture",
         backgroundImage: "assets/oeuvre/PixArt.png",
     },
+    {
+        artistName: "Artiste 9",
+        artName: "Art 9",
+        label1: "Space",
+        label2: "StreetArt",
+        backgroundImage: "assets/oeuvre/Test.jpg",
+    },
 ];
 
 // Fonction de création de la carte
@@ -138,7 +145,7 @@ for (let i = 0; i < worksofArt.length; i++) {
 }
 
 
-
+// Création Modal
 
 function openModal() {
     document.querySelector('.overlay').style.display = 'block';
@@ -153,10 +160,10 @@ function closeModal() {
 }
 
 
+
 // Barre de Recherche
 
 console.log("virtuArt");
-
 
 
 const buttonImg = document.getElementById("btnRecherche");
@@ -170,3 +177,4 @@ buttonImg.addEventListener("click", () => {
   })
   
   
+
