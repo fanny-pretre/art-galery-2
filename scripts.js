@@ -145,7 +145,7 @@ for (let i = 0; i < worksofArt.length; i++) {
 }
 
 
-//
+// Création Modal
 
 function openModal() {
     document.querySelector('.overlay').style.display = 'block';
@@ -158,4 +158,23 @@ function closeModal() {
     document.querySelector('.modal').classList.remove('modal--open')
     document.querySelector('.sectionFooter').style.display = 'block'
 }
+
+
+
+// Barre de Recherche
+
+console.log("virtuArt");
+
+
+const buttonImg = document.getElementById("btnRecherche");
+const sectionRecherche = document.getElementById("sectionRecherche");
+buttonImg.addEventListener("click", () => {
+    if(getComputedStyle(sectionRecherche).display != "none"){
+        sectionRecherche.style.display = "none";
+    } else {
+        sectionRecherche.style.display = "block";
+    }
+  })
+  
+  
 
