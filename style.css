@@ -75,8 +75,6 @@ nav {
     height: 100vh;
     width: 100vw;
     overflow-y: scroll;
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(7rem);
     scroll-snap-type: y mandatory;
     position: relative;
     z-index: 1;
@@ -91,20 +89,6 @@ nav {
     background-position: center;
 }
 
-/*Pour la nav*/
-.sectionFooter {
-
-    position: fixed;
-    z-index: 10;
-    inset: auto 0 0 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: var(--secondary-font);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-}
 
 .buttonImg {
     width: 25px;
@@ -180,10 +164,9 @@ h3 {
     color: white;
 }
 .sectionFooter nav {
-     /* Add this line first, it fixes blur for Safari*/
-    backdrop-filter: blur(2px);  /* This line activates blur*/
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+   backdrop-filter: blur(2px);  
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 .buttonImg {
@@ -296,7 +279,7 @@ h3 {
 }
 
 /*Le footer (dernière page)*/
-.footer {
+#footer {
     background-color: var(--secondary-color);
     height: 100vh;
     width: 100vw;
@@ -565,13 +548,11 @@ h3 {
 }
 
 #sectionRecherche {
-
-    display: flex;
+    display: none;
     position: fixed;
     z-index: 9;
     inset: auto 0 0 0;
     width: 100%;
     height: 60%;
     background-color: #262626;
-    
 }
