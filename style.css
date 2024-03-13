@@ -8,7 +8,7 @@
     --secondary-font: "Montserrat", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*
 .montserrat-<uniquifier> {
     font-family: "Montserrat", sans-serif;
@@ -28,7 +28,6 @@
 
 
 /* LES GENERIQUES */
-
 * {
     box-sizing: border-box;
 }
@@ -37,6 +36,8 @@ body {
     margin: 0;
     background-color: var(--quaternary-color);
 }
+
+
 
 a {
     color: var(--tertiary-color);
@@ -89,6 +90,7 @@ nav {
     width: 100vw;
     background-size: cover;
     scroll-snap-align: start;
+    background-position: center;
 }
 
 /*Pour la nav*/
@@ -157,6 +159,8 @@ h3 {
     gap: 30px;
     font-family: var(--secondary-font);
     font-weight: 700;
+    padding: 10px 0px 30px 20px;
+
 }
 
 .card-label-1 {
@@ -479,10 +483,8 @@ h3 {
     padding: 0 20px;
 }
 
-.modal__label {
-    padding: 0 20px 30px;
-}
 
-.modal__label p {
-    padding: 10px;
+.card-label p {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
 }

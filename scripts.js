@@ -66,6 +66,13 @@ const worksofArt = [
         label2: "Culture",
         backgroundImage: "assets/oeuvre/PixArt.png",
     },
+    {
+        artistName: "Artiste 9",
+        artName: "Art 9",
+        label1: "Space",
+        label2: "StreetArt",
+        backgroundImage: "assets/oeuvre/Test.jpg",
+    },
 ];
 
 // Fonction de création de la carte
@@ -138,8 +145,8 @@ for (let i = 0; i < worksofArt.length; i++) {
 }
 
 
+//
 
-/*
 function openModal() {
     document.querySelector('.overlay').style.display = 'block';
     document.querySelector('.modal').classList.add('modal--open')
@@ -151,4 +158,4 @@ function closeModal() {
     document.querySelector('.modal').classList.remove('modal--open')
     document.querySelector('.sectionFooter').style.display = 'block'
 }
-*/
+
