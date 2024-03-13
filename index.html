@@ -9,157 +9,259 @@
 </head>
 
 <body>
-    <!-- Accueil -->
-    <section class="backgroundImage" id="background1">
-        <header>
-            <img src="assets/Logo.png" alt="logo">
-        </header>
-        <div>
-            <button img src="assets/icons/fleche-vers-le-bas.png" alt="flèche du bas"></button>
-            <nav>
-                <button img src="assets/icons/recherche.png" alt="recherche"> </button>
-                <p> Faites défiler pour découvrir</p>
-                <button img src="assets/icons/lettre-i.png" alt="information"> </button>
-            </nav>
-            <h1> Virtu'ART</h1>
-        </div>
+
+    <section class="container">
+
+        <!-- Accueil -->
+        <section class="card" id="background1">
+            <header>
+                <img src="assets/Logo.png" alt="logo">
+            </header>
+            <div class="sectionFooter">
+                <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
+                <nav>
+                    <button><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg" id="btnRecherche"></button>
+                    <p class="navP"> Faites défiler pour découvrir</p>
+                    <button><img src="assets/icons/i.png" alt="information" class="buttonImg"></button>
+                </nav>
+                <h1> Virtu'ART</h1>
+            </div>
+            <!-- Barre de recherche -->
+            <div id="sectionRecherche">
+                <p>Recherche</p>
+                <section class="gridRechercheImg">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </section>
+                <section class="inputRecherche">
+                    <div class="propositionRecherche">
+                        <p>PopArt</p>
+                    </div>
+                    <input type="text">
+                </section>
+            </div>
+            <!-- Fin barre de recherche -->
+        </section>
+
+        <main>
+            <div class="cards"></div>
+
+            <section class="footer">
+                <header id="logoFooter">
+                    <img src="assets/Logo.png" alt="logo" id="logoFooter">
+                </header>
+                <section id="footerTexts">
+                    <p id="footerText"> CE SITE A ÉTÉ DÉVELOPPÉ AVEC
+                        <span class="pinkText"> AMOUR </span> PAR FANNY, DAVID, NICOLAS &
+                        SIMON !
+                    </p>
+                    <p id="footerLink"> En savoir plus sur les <span a href="" class="pinkText"> images </a>></p>
+                </section>
+            </section>
+
+            <!-- Art 1 
+            <section class="backgroundImage" id="background2" onclick="openModal()">
+                <header>
+                    <img src="assets/Logo.png" alt="logo" class="logoSection">
+                    <img src="assets/icons/clic.png" alt="clic" class="clic">
+                </header>
+                <section class="artInfo">
+                    <h2 class="artistName"> William Santos </h2>
+                    <h3 class="artName"> Art ?</h3>
+                    <div class="label">
+                        <p> #Culture </p>
+                        <p> #Roman </p>
+                    </div>
+                </section>
+            </section>
+
+            -->
+
+            <!-- Pour le DOM JS
+
+            <div class="cards">
+                <div class="card" onclick="openModal()">
+                    <div class="card-header">
+                        <div img src="assets/Logo.png" alt="logo" class="logoSection"></div>
+                        <div img src="assets/icons/clic.png" alt="clic" class="clic"></div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">William Santos</h2>
+                        <h3 class="card-title2"> Art ?</h3>
+                        <div class="card-label">
+                            <p class="card-label-1"> #Culture </p>
+                            <p class="card-label-2"> #Roman </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+            <!-- Art 2 
+            <section class="backgroundImage" id="background3" onclick="openModal()">
+                <header>
+                    <img src=" assets/Logo.png" alt="logo" class="logoSection">
+                    <img src="assets/icons/clic.png" alt="clic" class="clic">
+                </header>
+                <section class="artInfo">
+                    <h2 class="artistName"> Nom de l'artiste </h2>
+                    <h3 class="artName"> Nom de l'oeuvre</h3>
+                    <div class="label">
+                        <p> Label 1 </p>
+                        <p> Label 2 </p>
+                    </div>
+                </section>
+            </section>
+
+        -->
+
+            <!-- Modal -->
+
+            <div class="overlay"> </div>
+            <div class="modal">
+                <div class="modal__close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </div>
+                <div class="modal__header">
+                    <div class="modal__header__img__area">
+                        <img src="assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg">
+                    </div>
+                    <h2 class="modal__header__title artistName"> William Santos </h2>
+                    <h3 class="artName"> Art ?</h3>
+                </div>
+                <div class="modal__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod assumenda a, nulla impedit
+                        harum nisi
+                        unde quae veritatis molestiae asperiores consequuntur quaerat, vel ullam facere suscipit,
+                        laboriosam
+                        voluptates. Cumque.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, fugit eos! Veritatis
+                        libero voluptas et vitae laborum ullam nobis possimus qui saepe unde nihil voluptatem nam,
+                        veniam consectetur eos expedita?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorum, velit sunt non
+                        consequuntur, hic, unde repudiandae nesciunt ex eius repellendus architecto provident labore
+                        nulla iste impedit esse maiores voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptates a deserunt nulla, molestias enim repellat dolorem, hic nihil culpa labore
+                        molestiae recusandae laudantium? Esse fugiat accusantium cupiditate eveniet, explicabo ipsum.
+                    </p>
+                    <div class="label modal__label">
+                        <p> #Culture </p>
+                        <p> #Roman </p>
+                    </div>
+                </div>
+
+                <!-- Art 3 
+                <section class="backgroundImage" id="background4">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+
+                -->
+
+                <!-- Art 4 
+                <section class="backgroundImage" id="background5">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+                -->
+
+                <!-- Art 5 
+                <section class="backgroundImage" id="background6">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+                -->
+
+                <!-- Art 6 
+                <section class="backgroundImage" id="background7">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+                -->
+                <!-- Art 7 
+                <section class="backgroundImage" id="background8">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+                -->
+
+                <!-- Art 8 
+                <section class="backgroundImage" id="background9">
+                    <header>
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                        <img src="assets/icons/clic.png" alt="clic" class="clic">
+                    </header>
+                    <section class="artInfo">
+                        <h2 class="artistName"> Nom de l'artiste </h2>
+                        <h3 class="artName"> Nom de l'oeuvre</h3>
+                        <div class="label">
+                            <p> Label 1 </p>
+                            <p> Label 2 </p>
+                        </div>
+                    </section>
+                </section>
+        </main>
+        -->
+        </main>
+        <footer></footer>
     </section>
-
-    <main class="container">
-        <!-- Art 1 -->
-        <section class="backgroundImage" id="background2">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 2 -->
-        <section class="backgroundImage" id="background3">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 3 -->
-        <section class="backgroundImage" id="background4">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 4 -->
-        <section class="backgroundImage" id="background5">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 5 -->
-        <section class="backgroundImage" id="background6">
-            <header>
-                <img src="assets/" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 6 -->
-        <section class="backgroundImage" id="background7">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 7 -->
-        <section class="backgroundImage" id="background8">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-        <!-- Art 8 -->
-        <section class="backgroundImage" id="background9">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-                <img src="" alt="clic">
-            </header>
-            <section>
-                <h2 class="artistName"> Nom de l'artiste </h2>
-                <h3 class="artName"> Nom de l'oeuvre</h3>
-                <div>
-                    <p> Label 1 </p>
-                    <p> Label 2 </p>
-                </div>
-            </section>
-        </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <section class="backgroundColor" id="background2">
-            <header>
-                <img src="" alt="logo">
-            </header>
-            <section>
-                <p>lorem</p>
-                <p><a href="">En savoir plus sur les images -></a></p>
-            </section>
-        </section>
-    </footer>
-
+    <script src="scripts.js" differ></script>
 </body>
 
 </html>
