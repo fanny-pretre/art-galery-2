@@ -163,10 +163,11 @@ h3 {
     font-weight: 600;
     color: white;
 }
+
 .sectionFooter nav {
-   backdrop-filter: blur(2px);  
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    backdrop-filter: blur(2px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .buttonImg {
@@ -472,6 +473,7 @@ h3 {
 }
 
 /*La Modal*/
+
 .overlay {
     position: fixed;
     top: 0;
@@ -482,7 +484,7 @@ h3 {
     display: none;
 }
 
-.modal {
+.modal-card {
     position: fixed;
     left: 50%;
     bottom: -52%;
@@ -499,7 +501,8 @@ h3 {
     overflow: auto;
 }
 
-.modal--close {
+.modal-close {
+    height: 20px;
     top: 8px;
     right: 8px;
     cursor: pointer;
@@ -516,35 +519,45 @@ h3 {
     transform: rotate(360deg);
 }
 
-.modal__header__img__area {
+.modal-header {
+    height: 100%;
     display: block;
     justify-content: center;
     text-align: center;
 }
 
-.modal__header img {
-
+.modal-img {
+    height: 100%;
     width: 90%;
 }
 
-.modal__header h2 {
+.modal-title {
+    padding: 0 20px;
+    height: 100%;
+}
+
+.modal-title2 {
     padding: 0 20px;
 }
 
-.modal__header h3 {
-    padding: 0 20px;
-}
 
-
-.modal__body p {
+.modal-text {
     font-size: 1rem;
     font-family: var(--secondary-font);
     padding: 0 20px;
 }
 
-.card-label p {
-    padding: 10px 20px;
+.modal-label {
+    display: flex;
+    gap: 30px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+.modal-label-1 {
     background-color: var(--primary-color);
+    padding: 0.8rem 0.8rem;
+    width: 100%;
 }
 
 #sectionRecherche {

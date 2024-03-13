@@ -7,6 +7,7 @@
     <title>Gallerie d'art interactive - Virtu'ART</title>
     <link href="style.css" rel="stylesheet">
     <script src="scripts.js" defer></script>
+    <!-- <script src="scriptencours.js" defer></script> -->
 </head>
 
 <body>
@@ -18,10 +19,11 @@
             <header>
                 <img src="assets/Logo.png" alt="logo">
             </header>
-            <div class="sectionFooter" >
+            <div class="sectionFooter">
                 <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
                 <nav>
-                    <button><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg" id="btnRecherche"></button>
+                    <button><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg"
+                            id="btnRecherche"></button>
                     <p class="navP"> Faites défiler pour découvrir</p>
                     <button><img src="assets/icons/i.png" alt="information" class="buttonImg"></button>
                 </nav>
@@ -45,20 +47,20 @@
             </div>
             <!-- Fin barre de recherche -->
         </section>
-         <!-- Fin d'accueil -->
+        <!-- Fin d'accueil -->
 
-        
+
         <main>
 
             <!-- Art Section gérée en JS-->
-            <div class="cards" onclick="openModal()"></div>
+            <div class="cards"></div>
             <!-- Fin Art Section gérée en JS-->
 
-    
 
-            <!-- Modal -->
 
-            <div class="overlay"> </div>
+            <!-- Modal 
+
+            <div class=" overlay"> </div>
             <div class="modal">
                 <div class="modal__close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -93,8 +95,34 @@
                         <p> #Roman </p>
                     </div>
                 </div>
+                -->
 
-            <!-- Fin Modal -->    
+            <!--En cours -->
+            <div class="modal-cards">
+                <!-- <div class="overlay"></div>
+                <div class="modal-card">
+                    <div class="modal-close" onclick="closeModal()"></div>
+                    <div class="modal-header">
+                        <div class="modal-img"></div>
+                        <h2 class="modal-title"></h2>
+                        <h3 class="modal-title2"></h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text"></p>
+                        <div class="modal-label">
+                            <p class="modal-label-1"> </p>
+                            <p class="modal-label-2"></p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+
+
+
+
+
+
 
         </main>
 
@@ -114,12 +142,12 @@
         </footer>
 
     </section>
-    
+
 </body>
 
 </html>
 
- <!-- Pour le DOM JS
+<!-- Pour le DOM JS
 
             <div class="cards">
                 <div class="card" onclick="openModal()">

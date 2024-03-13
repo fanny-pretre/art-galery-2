@@ -1,5 +1,6 @@
 /* En cours de test */
 const cards = document.querySelector(".cards");
+const modalCards = document.querySelector(".modal-cards");
 
 const worksofArt = [
     {
@@ -32,7 +33,7 @@ const worksofArt = [
         artName: "Art 4",
         label1: "PopArt",
         label2: "Culture",
-        backgroundImage: "assets/oeuvre/pexels-photo-1670977.jpeg",
+        backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
     },
 
     {
@@ -135,6 +136,8 @@ function createCard(workofArt) {
     cardLabel2.classList.add("card-label-1");
     cardLabel2.innerText = `${workofArt.label2}`;
     cardLabel.appendChild(cardLabel2);
+
+    card.addEventListener("click", () => openModal(workofArt))
 }
 
 //
@@ -144,37 +147,113 @@ for (let i = 0; i < worksofArt.length; i++) {
     createCard(worksofArt[i]);
 }
 
-
-// Création Modal
-
-function openModal() {
-    document.querySelector('.overlay').style.display = 'block';
-    document.querySelector('.modal').classList.add('modal--open')
-    document.querySelector('.sectionFooter').style.display = 'none';
-}
-
-function closeModal() {
-    document.querySelector('.overlay').style.display = 'none';
-    document.querySelector('.modal').classList.remove('modal--open')
-    document.querySelector('.sectionFooter').style.display = 'block'
-}
-
-
-
 // Barre de Recherche
 
 console.log("virtuArt");
 
-
 const buttonImg = document.getElementById("btnRecherche");
 const sectionRecherche = document.getElementById("sectionRecherche");
 buttonImg.addEventListener("click", () => {
-    if(getComputedStyle(sectionRecherche).display != "none"){
+    if (getComputedStyle(sectionRecherche).display != "none") {
         sectionRecherche.style.display = "none";
     } else {
         sectionRecherche.style.display = "block";
     }
-  })
-  
-  
+})
+
+// Data modal
+
+
+function createModalCard(workModal) {
+
+    const modalOverlay = document.createElement("div");
+    modalOverlay.classList.add("overlay");
+    modalCards.appendChild(modalOverlay);
+
+    const modalCard = document.createElement("div");
+    modalCard.classList.add("modal-card");
+    modalOverlay.appendChild(modalCard);
+
+    //create Modal Close
+    const modalClose = document.createElement("div");
+    modalClose.classList.add("modal-close");
+    modalCard.appendChild(modalClose);
+
+
+    //create Header
+    const modalHeader = document.createElement("div");
+    modalHeader.classList.add("modal-header");
+    modalCard.appendChild(modalHeader);
+
+    //create Image
+    const modalImg = document.createElement("div");
+    modalImg.style.backgroundImage = `url(${workModal.backgroundImage})`;
+    modalImg.classList.add("modal-img");
+    modalHeader.appendChild(modalImg);
+
+    //create artist name
+    const modalTitle = document.createElement("h2");
+    modalTitle.classList.add("modal-title");
+    modalTitle.innerText = `${workModal.artistName}`;
+    modalHeader.appendChild(modalTitle);
+
+    //create art name
+    const modalTitle2 = document.createElement("h3");
+    modalTitle2.classList.add("modal-title2");
+    modalTitle2.innerText = `${workModal.artName}`;
+    modalHeader.appendChild(modalTitle2);
+
+
+    //create body
+    const modalBody = document.createElement("div");
+    modalBody.classList.add("modal-body");
+    modalCard.appendChild(modalBody);
+
+    //create text
+    const modalText = document.createElement("p");
+    modalText.classList.add("modal-text");
+    modalText.innerText = `${workModal.texte}`;
+    modalBody.appendChild(modalText);
+
+
+    //create label parent
+    const modalLabel = document.createElement("div");
+    modalLabel.classList.add("modal-label");
+    modalBody.appendChild(modalLabel);
+
+    //create label 1
+    const modalLabel1 = document.createElement("p");
+    modalLabel1.classList.add("modal-label-1");
+    modalLabel1.innerText = `${workModal.label1}`;
+    modalLabel.appendChild(modalLabel1);
+
+    //create label 2
+    const modalLabel2 = document.createElement("p");
+    modalLabel2.classList.add("modal-label-1");
+    modalLabel2.innerText = `${workModal.label2}`;
+    modalLabel.appendChild(modalLabel2);
+
+    modalClose.addEventListener("click", () => closeModal())
+}
+
+function clearModal() {
+    const modalOverlay = document.querySelector('.overlay');
+    if (modalOverlay) {
+        modalOverlay.remove();
+    }
+}
+
+// Création Modal
+
+function openModal(work) {
+    clearModal();
+    createModalCard(work);
+    document.querySelector('.overlay').style.display = 'block';
+    document.querySelector('.modal-card').classList.add('modal--open')
+    document.querySelector('.sectionFooter').style.display = 'none';
+}
+
+function closeModal() {
+    clearModal();
+}
 
