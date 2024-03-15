@@ -145,7 +145,8 @@ nav {
 }
 
 /*Pour la nav*/
-.sectionFooter {
+#sectionFooter {
+    display: block;
     position: fixed;
     z-index: 10;
     inset: auto 0 0 0;
@@ -156,6 +157,12 @@ nav {
     font-size: 1.5rem;
     font-weight: 600;
     color: white;
+}
+
+#sectionFooter nav {
+   backdrop-filter: blur(2px);  
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 .sectionFooter nav {
@@ -471,12 +478,108 @@ nav {
     padding: 0.8rem 0.8rem;
 }
 
+
+
 #sectionRecherche {
     display: none;
     position: fixed;
     z-index: 9;
     inset: auto 0 0 0;
+    width: 95%;
+    height: 80%;
+    backdrop-filter: blur(25px);
+    border: var(--quaternary-color) 3px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gridRechercheImg{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 75%;
+    margin: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+    overflow-y: auto;
+    scroll-behavior: initial;
+    grid-gap: 10px;
+    height: 75%;
     width: 100%;
-    height: 60%;
-    background-color: #262626;
+    padding: 10px;
+}
+.gridRechercheImg a{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.gridRechercheImgModal{
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+#myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnForm{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.btnForm img{
+    width: 100%;
+    height: 100%;
+}
+
+.inputRecherche{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    inset: auto 0 0 0;
+    margin-bottom: 30px;
+}
+.inputRecherche input{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: var(--quaternary-color) 2px solid;
+    background-color: #96b3be;
+    opacity: 75%;
+    width: 100%;
+}
+.buttonImgRecherche{
+    width: 25px;
+    margin: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.propositionRecherche{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.propositionRecherche p{
+    margin-left: 3%;
+    border-radius: 4px;
+    padding: 2px;
+    
+}
+.p1 {
+    background-color: var(--quaternary-color);
+}
+.p2 {
+    background-color: var(--primary-color);
 }

@@ -18,33 +18,38 @@
             <header>
                 <img src="assets/Logo.png" alt="logo">
             </header>
-            <div class="sectionFooter">
+            <div class="sectionFooter" id="sectionFooter" >
                 <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
                 <nav>
-                    <button><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg"
-                            id="btnRecherche"></button>
+                    <button id="btnRecherche"><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg" ></button>
+        
                     <p class="navP"> Faites défiler pour découvrir</p>
                     <button><img src="assets/icons/i.png" alt="information" class="buttonImg"></button>
                 </nav>
                 <h1> Virtu'ART</h1>
             </div>
+
+
             <!-- Barre de recherche -->
             <div id="sectionRecherche">
-                <p>Recherche</p>
-                <section class="gridRechercheImg">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </section>
+                <section class="gridRechercheImg"></section>
                 <section class="inputRecherche">
                     <div class="propositionRecherche">
-                        <p>PopArt</p>
+                        <p class="p1" id="popArtClic" onclick="popArtClic()">#PopArt</p>
+                        <p class="p2" id="streetArtClic" onclick="streetArtClic()">#StreetArt</p>
+                        <p class="p1" id="cultureClic" onclick="cultureClic()">#Culture</p>
+                        <p class="p2" id="allClic" onclick="allClic()">#All</p>
                     </div>
-                    <input type="text">
+                    <div id="myForm">
+                        <input id="inputRecherche" type="text" placeholder="Faite votre recherche " value="">
+                        <button placeholder="Recherche" class="btnForm" onclick="search()" id="btnSearch"><img src="assets/icons/icone-loupe-noir.png" ></button>
+                    </div>
+                    <button id="btnRecherche2" placeholder="Recherche"><img src="assets/icons/cross.png" alt="recherche" class="buttonImgRecherche"></button>
                 </section>
             </div>
             <!-- Fin barre de recherche -->
+
+
         </section>
         <!-- Fin d'accueil -->
 
