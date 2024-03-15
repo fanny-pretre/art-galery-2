@@ -18,10 +18,11 @@
             <header>
                 <img src="assets/Logo.png" alt="logo">
             </header>
-            <div id="sectionFooter" >
+            <div class="sectionFooter" id="sectionFooter" >
                 <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
                 <nav>
                     <button id="btnRecherche"><img src="assets/icons/icone-loupe-noir.png" alt="recherche" class="buttonImg" ></button>
+        
                     <p class="navP"> Faites défiler pour découvrir</p>
                     <button><img src="assets/icons/i.png" alt="information" class="buttonImg"></button>
                 </nav>
@@ -50,20 +51,90 @@
 
 
         </section>
-         <!-- Fin d'accueil -->
+        <!-- Fin d'accueil -->
 
-        
+
         <main>
 
             <!-- Art Section gérée en JS-->
-            <div class="cards" onclick="openModal()"></div>
-            <!-- Fin Art Section gérée en JS-->
+            <div class="cards"></div>
+            <!-- Fin Art Section -->
 
-    
+            <!-- Modale 1 gérée en JS-->
+            <div class="modal-cards"></div>
+            <!-- Fin de modale 1-->
 
-            <!-- Modal -->
+            <!-- Modale 2 gérée en JS-->
+            <div class="modal-2-cards"> </div>
+            <!-- Fin de modale 2-->
 
-            <div class="overlay"> </div>
+
+
+        </main>
+
+        <footer>
+            <section id="footer" class="card">
+                <header id="logoFooter">
+                    <img src="assets/Logo.png" alt="logo" id="logoFooter">
+                </header>
+                <section id="footerTexts">
+                    <p id="footerText"> CE SITE A ÉTÉ DÉVELOPPÉ AVEC
+                        <span class="pinkText"> AMOUR </span> PAR FANNY, DAVID, NICOLAS &
+                        SIMON !
+                    </p>
+                    <p id="footerLink"> En savoir plus sur les <span a href="" class="pinkText"> images </a>></p>
+                </section>
+            </section>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
+
+<!-- Pour les Cards JS
+
+            <div class="cards">
+                <div class="card" onclick="openModal()">
+                    <div class="card-header">
+                        <div img src="assets/Logo.png" alt="logo" class="logoSection"></div>
+                        <div img src="assets/icons/clic.png" alt="clic" class="clic"></div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">William Santos</h2>
+                        <h3 class="card-title2"> Art ?</h3>
+                        <div class="card-label">
+                            <p class="card-label-1"> #Culture </p>
+                            <p class="card-label-2"> #Roman </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+-->
+
+<!--En cours 
+<div class="modal-cards">
+    <div class="overlay"></div>
+    <div class="modal-card">
+        <div class="modal-close" onclick="closeModal()"></div>
+        <div class="modal-header">
+            <div class="modal-img"></div>
+            <h2 class="modal-title"></h2>
+            <h3 class="modal-title2"></h3>
+        </div>
+        <div class="modal-body">
+            <p class="modal-text"></p>
+            <div class="modal-label">
+                <p class="modal-label-1"> </p>
+                <p class="modal-label-2"></p>
+            </div>
+        </div>
+    </div> -->
+
+<!-- Modal 
+
+            <div class=" overlay"> </div>
             <div class="modal">
                 <div class="modal__close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -98,48 +169,5 @@
                         <p> #Roman </p>
                     </div>
                 </div>
-
-            <!-- Fin Modal -->    
-
-        </main>
-
-        <footer>
-            <section id="footer" class="card">
-                <header id="logoFooter">
-                    <img src="assets/Logo.png" alt="logo" id="logoFooter">
-                </header>
-                <section id="footerTexts">
-                    <p id="footerText"> CE SITE A ÉTÉ DÉVELOPPÉ AVEC
-                        <span class="pinkText"> AMOUR </span> PAR FANNY, DAVID, NICOLAS &
-                        SIMON !
-                    </p>
-                    <p id="footerLink"> En savoir plus sur les <span a href="" class="pinkText"> images </a>></p>
-                </section>
-            </section>
-        </footer>
-
-    </section>
-    
-</body>
-
-</html>
-
- <!-- Pour le DOM JS
-
-            <div class="cards">
-                <div class="card" onclick="openModal()">
-                    <div class="card-header">
-                        <div img src="assets/Logo.png" alt="logo" class="logoSection"></div>
-                        <div img src="assets/icons/clic.png" alt="clic" class="clic"></div>
-                    </div>
-                    <div class="card-body">
-                        <h2 class="card-title">William Santos</h2>
-                        <h3 class="card-title2"> Art ?</h3>
-                        <div class="card-label">
-                            <p class="card-label-1"> #Culture </p>
-                            <p class="card-label-2"> #Roman </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
--->
+                -->
+</div>

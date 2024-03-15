@@ -52,6 +52,20 @@ h1 {
     display: none;
 }
 
+h2 {
+    font-family: var(--secondary-font);
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+}
+
 button {
     width: 30px;
     height: 30px;
@@ -68,7 +82,10 @@ nav {
 
 }
 
-/* LES CLASSES */
+.navP {
+    text-shadow: 1px 1px 2px var(--secondary-color);
+}
+
 
 /*Pour gérer le scroll*/
 .container {
@@ -81,39 +98,20 @@ nav {
 }
 
 
+/*Pour les sections avec les oeuvres*/
+
 .card {
     height: 100vh;
     width: 100vw;
     background-size: cover;
     scroll-snap-align: start;
     background-position: center;
-}
-
-
-.buttonImg {
-    width: 25px;
-    display: flex;
-    text-align: center;
-}
-
-.navP {
-    text-shadow: 1px 1px 2px var(--secondary-color);
-}
-
-/*Pour les sections avec les oeuvres*/
-
-.clic {
-    width: 5rem;
+    cursor: pointer;
 }
 
 .card-header {
     display: flex;
     justify-content: space-between;
-}
-
-.logoSection {
-    width: 6rem;
-    padding: 1rem;
 }
 
 .card-body {
@@ -122,18 +120,14 @@ nav {
     padding: 2rem;
 }
 
-h2 {
-    font-family: var(--secondary-font);
-    color: black;
-    font-size: 1.5rem;
-    margin: 0;
+.clic {
+    width: 5rem;
 }
 
-h3 {
-    font-family: var(--primary-font);
-    color: black;
-    font-size: 3rem;
-    margin: 0;
+
+.logoSection {
+    width: 6rem;
+    padding: 1rem;
 }
 
 .card-label {
@@ -164,10 +158,21 @@ h3 {
     font-weight: 600;
     color: white;
 }
+
 #sectionFooter nav {
    backdrop-filter: blur(2px);  
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
+}
+
+.sectionFooter nav {
+    backdrop-filter: blur(2px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navP {
+    text-shadow: 1px 1px 2px var(--secondary-color);
 }
 
 .buttonImg {
@@ -176,107 +181,13 @@ h3 {
     text-align: center;
 }
 
-.navP {
-    text-shadow: 1px 1px 2px var(--secondary-color);
-}
 
-/*Pour les sections avec les oeuvres*/
-
-.clic {
-    width: 5rem;
-}
-
-.card-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logoSection {
-    width: 6rem;
-    padding: 1rem;
-}
-
-.card-body {
-    position: relative;
-    top: 22rem;
-    padding: 2rem;
-}
-
-h2 {
-    font-family: var(--secondary-font);
-    color: black;
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-h3 {
-    font-family: var(--primary-font);
-    color: black;
-    font-size: 3rem;
-    margin: 0;
-}
-
-.card-label {
-    display: flex;
-    gap: 30px;
-    font-family: var(--secondary-font);
-    font-weight: 700;
-}
-
-.card-label-1 {
-    background-color: var(--primary-color);
-    padding: 0.8rem 0.8rem;
-}
+/*Pour l'accueil*/
 
 #background1 {
     background-image: url("assets/oeuvre/chat.jpg");
     background-position: center;
     z-index: 9;
-}
-
-#background2 {
-    background-image: url("assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg");
-    background-position: center;
-}
-
-#background3 {
-    background-image: url("assets/oeuvre/street-art-shipping-container-freight-highway-163811.jpeg");
-    background-position: center;
-}
-
-#background4 {
-    background-image: url("assets/oeuvre/pexels-photo-1670977.jpeg");
-    background-position: center;
-}
-
-#background5 {
-    background-image: url("assets/oeuvre/pexels-photo-1670977.jpeg");
-    background-position: center;
-}
-
-#background5 {
-    background-image: url("assets/oeuvre/jay\ kaes-cover.jpg");
-    background-position: right;
-}
-
-#background6 {
-    background-image: url("assets/oeuvre/musee-art-contemporain-mac-paola-pivi.jpeg");
-    background-position: center;
-}
-
-#background7 {
-    background-image: url("assets/oeuvre/jeff-koons-ballerina-sculpture-3.jpg");
-    background-position: center;
-}
-
-#background8 {
-    background-image: url("assets/oeuvre/Ben-Turnbull-Supermen-Eleven-yatzer-4.jpg");
-    background-position: center;
-}
-
-#background9 {
-    background-image: url("assets/oeuvre/PixArt.png");
-    background-position: center
 }
 
 /*Le footer (dernière page)*/
@@ -473,6 +384,7 @@ h3 {
 }
 
 /*La Modal*/
+
 .overlay {
     position: fixed;
     top: 0;
@@ -483,7 +395,8 @@ h3 {
     display: none;
 }
 
-.modal {
+
+.modal-card {
     position: fixed;
     left: 50%;
     bottom: -52%;
@@ -495,57 +408,74 @@ h3 {
     transition: 0.3s all ease-in-out;
 }
 
-.modal--open {
+.modal-open {
     transform: translate(-50%, -50%);
     overflow: auto;
 }
 
-.modal--close {
-    top: 8px;
-    right: 8px;
-    cursor: pointer;
+.modal-close {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
     transition: 0.3s all ease-in-out;
+    margin-right: 10px;
 }
 
-.modal__close svg {
+.close {
     height: 20px;
     width: 20px;
-    padding: 20px;
+    cursor: pointer;
 }
 
-.modal__close svg:hover {
-    transform: rotate(360deg);
-}
-
-.modal__header__img__area {
+.modal-header {
+    height: 50%;
     display: block;
-    justify-content: center;
-    text-align: center;
+    text-align: left;
+    margin: 20px 40px;
 }
 
-.modal__header img {
-
-    width: 90%;
-}
-
-.modal__header h2 {
-    padding: 0 20px;
-}
-
-.modal__header h3 {
-    padding: 0 20px;
+.modal-img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 
-.modal__body p {
+.modal-img-1 {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.modal-title {
+    padding: 20px 0 0;
+}
+
+.modal-body {
+    margin: 0 40px;
+}
+
+.modal-text {
     font-size: 1rem;
     font-family: var(--secondary-font);
-    padding: 0 20px;
+    font-weight: 500;
+    margin-top: 150px;
 }
 
-.card-label p {
-    padding: 10px 20px;
+.modal-label {
+    display: flex;
+    gap: 30px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.modal-label-1 {
     background-color: var(--primary-color);
+    padding: 0.8rem 0.8rem;
 }
 
 
