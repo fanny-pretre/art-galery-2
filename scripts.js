@@ -10,9 +10,10 @@ const worksofArt = [
         label1: "Proute",
         label2: "PopArt",
         backgroundImage: "assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg",
-        id : "1",
+        id: "1",
         keyWord: "proute Proute popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
 
     {
@@ -21,9 +22,10 @@ const worksofArt = [
         label1: "Test",
         label2: "PourquoiPas",
         backgroundImage: "assets/oeuvre/street-art-shipping-container-freight-highway-163811.jpeg",
-        id : "2",
+        id: "2",
         keyWord: "Test test pk pas Espace",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
 
     {
@@ -32,9 +34,10 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
-        id : "3",
+        id: "3",
         keyWord: "culture Culture popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
     },
 
     {
@@ -42,10 +45,11 @@ const worksofArt = [
         artName: "Art 4",
         label1: "StreetArt",
         label2: "Culture",
-        backgroundImage: "assets/oeuvre/pexels-photo-1670977.jpeg",
-        id : "4",
+        backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
+        id: "4",
         keyWord: "culture Culture streetart Streetart streetArt StreetArt Street Art street art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
     },
 
     {
@@ -54,9 +58,10 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Space",
         backgroundImage: "assets/oeuvre/musee-art-contemporain-mac-paola-pivi.jpeg",
-        id : "5",
+        id: "5",
         keyWord: "space Space espace Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
 
     {
@@ -65,9 +70,10 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/jeff-koons-ballerina-sculpture-3.jpg",
-        id : "6",
+        id: "6",
         keyWord: "culture Culture Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
 
     {
@@ -76,9 +82,10 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/Ben-Turnbull-Supermen-Eleven-yatzer-4.jpg",
-        id : "7",
+        id: "7",
         keyWord: "culture Culture Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
 
     {
@@ -87,9 +94,10 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Proute",
         backgroundImage: "assets/oeuvre/PixArt.png",
-        id : "8",
+        id: "8",
         keyWord: "proute Proute popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
     {
         artistName: "Artiste 9",
@@ -97,14 +105,20 @@ const worksofArt = [
         label1: "Space",
         label2: "StreetArt",
         backgroundImage: "assets/oeuvre/Test.jpg",
-        id : "9",
+        id: "9",
         keyWord: "space Space espace Espace streetart Streetart streetArt StreetArt Street Art street art",
         // keyWord: ["space", "Space", "espace", "Espace"],
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
 ];
 
-// Fonction de création de la carte
+// Creation of cards
+for (let i = 0; i < worksofArt.length; i++) {
+    createCard(worksofArt[i]);
+}
+
+// Function for the creation of cards
 function createCard(workofArt) {
     const card = document.createElement("div");
     card.classList.add("card");
@@ -166,34 +180,14 @@ function createCard(workofArt) {
     cardLabel2.innerText = `${workofArt.label2}`;
     cardLabel.appendChild(cardLabel2);
 
-    card.addEventListener("click", () => openModal(workofArt))
+    card.addEventListener("click", () => openModal(workofArt, createModalCard, cardHeader));
 }
-
-//
-
-// Création des cartes
-for (let i = 0; i < worksofArt.length; i++) {
-    createCard(worksofArt[i]);
-}
-
-// Barre de Recherche
-
-console.log("virtuArt");
-
-const buttonImg = document.getElementById("btnRecherche");
-const sectionRecherche = document.getElementById("sectionRecherche");
-buttonImg.addEventListener("click", () => {
-    if (getComputedStyle(sectionRecherche).display != "none") {
-        sectionRecherche.style.display = "none";
-    } else {
-        sectionRecherche.style.display = "block";
-    }
-})
 
 // Data modal
 
+// To create the first modal
 
-function createModalCard(workModal) {
+function createModalCard(workofArt) {
 
     const modalOverlay = document.createElement("div");
     modalOverlay.classList.add("overlay");
@@ -212,7 +206,7 @@ function createModalCard(workModal) {
     let closeBtn = new Image();
     closeBtn.src = 'assets/icons/fermer.png';
     closeBtn.classList.add("close");
-    closeBtn.alt = "Croix";
+    closeBtn.alt = "Home";
     modalClose.appendChild(closeBtn)
 
     //create Header
@@ -222,20 +216,20 @@ function createModalCard(workModal) {
 
     //create Image
     const modalImg = document.createElement("div");
-    modalImg.style.backgroundImage = `url(${workModal.backgroundImage})`;
+    modalImg.style.backgroundImage = `url(${workofArt.backgroundImage})`;
     modalImg.classList.add("modal-img");
     modalHeader.appendChild(modalImg);
 
     //create artist name
     const modalTitle = document.createElement("h2");
     modalTitle.classList.add("modal-title");
-    modalTitle.innerText = `${workModal.artistName}`;
+    modalTitle.innerText = `${workofArt.artistName}`;
     modalHeader.appendChild(modalTitle);
 
     //create art name
     const modalTitle2 = document.createElement("h3");
     modalTitle2.classList.add("modal-title2");
-    modalTitle2.innerText = `${workModal.artName}`;
+    modalTitle2.innerText = `${workofArt.artName}`;
     modalHeader.appendChild(modalTitle2);
 
 
@@ -247,7 +241,7 @@ function createModalCard(workModal) {
     //create text
     const modalText = document.createElement("p");
     modalText.classList.add("modal-text");
-    modalText.innerText = `${workModal.texte}`;
+    modalText.innerText = `${workofArt.texte}`;
     modalBody.appendChild(modalText);
 
 
@@ -259,20 +253,78 @@ function createModalCard(workModal) {
     //create label 1
     const modalLabel1 = document.createElement("p");
     modalLabel1.classList.add("modal-label-1");
-    modalLabel1.innerText = `${workModal.label1}`;
+    modalLabel1.innerText = `${workofArt.label1}`;
     modalLabel.appendChild(modalLabel1);
 
     //create label 2
     const modalLabel2 = document.createElement("p");
     modalLabel2.classList.add("modal-label-1");
-    modalLabel2.innerText = `${workModal.label2}`;
+    modalLabel2.innerText = `${workofArt.label2}`;
     modalLabel.appendChild(modalLabel2);
 
+    modalImg.addEventListener("click", () => openModal(workofArt, createModal2))
     closeBtn.addEventListener("click", () => closeModal())
-    modalImg.addEventListener("click", () => openModal2(workModal))
 }
 
-// Pour clear la modal  
+// Create modal 2 
+
+
+function createModal2(workofArt) {
+
+    const modal2Overlay = document.createElement("div");
+    modal2Overlay.classList.add("overlay");
+    modal2Cards.appendChild(modal2Overlay);
+
+    const modal2Card = document.createElement("div");
+    modal2Card.classList.add("modal-card");
+    modal2Overlay.appendChild(modal2Card);
+
+    //create body
+
+    const modal2Body = document.createElement("div");
+    modal2Body.classList.add("modal-body");
+    modal2Card.appendChild(modal2Body);
+
+    // Create Button Section 
+    const buttonSection = document.createElement("div");
+    buttonSection.classList.add("button-section");
+    modal2Body.appendChild(buttonSection);
+
+    //create Homepage Button
+    let homepageBtn = new Image();
+    homepageBtn.src = 'assets/icons/home.png';
+    homepageBtn.classList.add("modalBtn");
+    homepageBtn.alt = "Home";
+    buttonSection.appendChild(homepageBtn);
+
+    //create Download Button
+    let downloadBtn = new Image();
+    downloadBtn.src = 'assets/icons/download.png';
+    downloadBtn.classList.add("modalBtn");
+    downloadBtn.alt = "Télécharger";
+    buttonSection.appendChild(downloadBtn);
+
+    //create Return Button
+    let returnBtn = new Image();
+    returnBtn.src = 'assets/icons/previous.png';
+    returnBtn.classList.add("modalBtn");
+    returnBtn.alt = "Précédent";
+    buttonSection.appendChild(returnBtn);
+
+    //create Image
+    const modal2Img = document.createElement("img");
+    modal2Img.src = workofArt.backgroundImage;
+    modal2Img.classList.add("modal-img-1");
+    modal2Body.appendChild(modal2Img);
+
+    homepageBtn.addEventListener("click", () => closeModal())
+    returnBtn.addEventListener("click", () => openModal(workofArt, createModalCard))
+    downloadBtn.addEventListener("click", function () {
+        downloadImg(workofArt)
+    });
+}
+
+// Clear the overlay which contains the modal
 function clearModal() {
     const modalOverlay = document.querySelector('.overlay');
     if (modalOverlay) {
@@ -280,36 +332,68 @@ function clearModal() {
     }
 }
 
-// Création Modal
+// Clear previous modals (if any) and create a new one based on the callback function
 
-function openModal(work) {
+function openModal(workofArt, callback, header) {
     clearModal();
-    createModalCard(work);
-    document.querySelector('.overlay').style.display = 'block';
+    callback(workofArt);
+    const overlay = document.querySelector('.overlay');
+    overlay.style.display = 'block';
+    overlay.style.backgroundColor = workofArt.backgroundColor;
+
     document.querySelector('.modal-card').classList.add('modal-open')
     document.querySelector('.sectionFooter').style.display = 'none';
+
+    //Hide header when opening the modal
+    if (header != null) {
+        header.style.display = 'none';
+    }
 }
+
+// Close the current modal
 
 function closeModal() {
     clearModal();
     document.querySelector('.sectionFooter').style.display = 'block';
+    const cardsHeader = document.querySelectorAll(".card-header");
+    cardsHeader.forEach(item => {
+        if (item.style.display === 'none') {
+            item.style.display = 'flex'
+        }
+    });
+}
+
+
+// Download the picture in your web browser on click 
+async function downloadImg(workofArt) {
+    // Download image from URL
+    const image = await fetch(workofArt.backgroundImage);
+    const imageblock = await image.blob();
+    const imageurl = URL.createObjectURL(imageblock);
+
+    // Send URL to browser
+    const link = document.createElement("a");
+    link.href = imageurl;
+    link.download = workofArt.artName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 
 
 
-
-    // Bouton d'affichage de la Barre de Recherche
+// Bouton d'affichage de la Barre de Recherche
 
 
 const buttonImg = document.getElementById("btnRecherche");
 buttonImg.addEventListener("click", () => {
     const sectionRecherche = document.getElementById("sectionRecherche");
     const sectionFooter = document.getElementById("sectionFooter")
-    if(getComputedStyle(sectionRecherche).display == "none"){
+    if (getComputedStyle(sectionRecherche).display == "none") {
         sectionRecherche.style.display = "block";
         sectionFooter.style.display = "none";
-        
+
     } else {
         sectionRecherche.style.display = "none";
         sectionFooter.style.display = "block";
@@ -320,17 +404,17 @@ const buttonImg2 = document.getElementById("btnRecherche2");
 buttonImg2.addEventListener("click", () => {
     const sectionRecherche = document.getElementById("sectionRecherche");
     const sectionFooter = document.getElementById("sectionFooter")
-    if(getComputedStyle(sectionRecherche).display == "none"){
+    if (getComputedStyle(sectionRecherche).display == "none") {
         sectionRecherche.style.display = "block";
         sectionFooter.style.display = "none";
-        
+
     } else {
         sectionRecherche.style.display = "none";
         sectionFooter.style.display = "block";
     }
 })
 
-    // Affichage des oeuvres par defauts
+// Affichage des oeuvres par defauts
 
 // --- function full utilisé de partout lol
 const elementRecherche = document.querySelector(".gridRechercheImg");
@@ -341,37 +425,37 @@ function addImgRecherche(workofArt) {
     ImgRecherche.setAttribute('href', '#' + workofArt.id);
     ImgRecherche.style.backgroundImage = `url(${workofArt.backgroundImage})`;
     elementRecherche.appendChild(ImgRecherche);
-  
+
 }
 // ---
 
 for (let i = 0; i < worksofArt.length; i++) {
     addImgRecherche(worksofArt[i]);
-}  
+}
 
 
-    // Affichage des oeuvres par les Boutons rapides
+// Affichage des oeuvres par les Boutons rapides
 
 const popArtClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for(let i = 0; i < worksofArt.length; i++) {
-        if("PopArt" === worksofArt[i].label1 || "PopArt" === worksofArt[i].label2) {
+    for (let i = 0; i < worksofArt.length; i++) {
+        if ("PopArt" === worksofArt[i].label1 || "PopArt" === worksofArt[i].label2) {
             addImgRecherche(worksofArt[i]);
         }
     }
 }
 const streetArtClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for(let i = 0; i < worksofArt.length; i++) {
-        if("StreetArt" === worksofArt[i].label1 || "StreetArt" === worksofArt[i].label2) {
+    for (let i = 0; i < worksofArt.length; i++) {
+        if ("StreetArt" === worksofArt[i].label1 || "StreetArt" === worksofArt[i].label2) {
             addImgRecherche(worksofArt[i]);
         }
     }
 }
 const cultureClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for(let i = 0; i < worksofArt.length; i++) {
-        if("Culture" === worksofArt[i].label1 || "Culture" === worksofArt[i].label2) {
+    for (let i = 0; i < worksofArt.length; i++) {
+        if ("Culture" === worksofArt[i].label1 || "Culture" === worksofArt[i].label2) {
             addImgRecherche(worksofArt[i]);
         }
     }
@@ -380,24 +464,24 @@ const allClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
     for (let i = 0; i < worksofArt.length; i++) {
         addImgRecherche(worksofArt[i]);
-    }  
+    }
 }
 
-    // Affichage des oeuvres par barre de recherche
+// Affichage des oeuvres par barre de recherche
 
 const search = () => {
     const userSearch = document.getElementById("inputRecherche").value;
     const userSearchNone = document.getElementById("inputRecherche");
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    if(document.querySelectorAll(".gridRechercheImgModal") !== null){
-        for(let i = 0; i < worksofArt.length; i++) { 
-            if(worksofArt[i].keyWord.includes(userSearch) == true ) {
+    if (document.querySelectorAll(".gridRechercheImgModal") !== null) {
+        for (let i = 0; i < worksofArt.length; i++) {
+            if (worksofArt[i].keyWord.includes(userSearch) == true) {
                 addImgRecherche(worksofArt[i]);
                 userSearchNone.placeholder = "stylé";
             } else if (worksofArt[i].keyWord.includes(userSearch) == false) {
                 console.log("rien");
             }
-        } 
+        }
     } else {
         userSearchNone.placeholder = "stylé";
         userSearchNone.value = `Je n'ai rien trouvé, tu peux essayé ' ${worksofArt[i].label1} ' si tu veux.`;
@@ -405,7 +489,7 @@ const search = () => {
     }
 }
 
-    // Close barre de recherche en cliquant sur image
+// Close barre de recherche en cliquant sur image
 
 document.querySelectorAll(".gridRechercheImgModal").forEach(closeRechercheImg =>
     closeRechercheImg.addEventListener("click", () => {
@@ -416,67 +500,12 @@ document.querySelectorAll(".gridRechercheImgModal").forEach(closeRechercheImg =>
     })
 )
 
-    //Key Enter
+//Key Enter
 
 const inputEnterKey = document.getElementById("inputRecherche");
 const btnSearch = document.getElementById("btnSearch");
-inputEnterKey.addEventListener('keyup', function(event) {
+inputEnterKey.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
         btnSearch.click();
-  }
-}); 
-
-// Pour la modal 2 
-// Data modal 2
-
-
-function createModal2(work2Modal) {
-
-    const modal2Overlay = document.createElement("div");
-    modal2Overlay.classList.add("overlay");
-    modal2Cards.appendChild(modal2Overlay);
-
-    const modal2Card = document.createElement("div");
-    modal2Card.classList.add("modal-card");
-    modal2Overlay.appendChild(modal2Card);
-
-    const modal2Close = document.createElement("div");
-    modal2Close.classList.add("modal-close");
-    modal2Card.appendChild(modal2Close);
-
-    //create Closebtn
-    let closeBtn = new Image();
-    closeBtn.src = 'assets/icons/fermer.png';
-    closeBtn.classList.add("close");
-    closeBtn.alt = "Croix";
-    modal2Close.appendChild(closeBtn)
-
-    //create body
-
-    const modal2Body = document.createElement("div");
-    modal2Body.classList.add("modal-body");
-    modal2Card.appendChild(modal2Body);
-
-    //create Image
-    const modal2Img = document.createElement("img");
-    modal2Img.src = work2Modal.backgroundImage;
-    modal2Img.classList.add("modal-img-1");
-    modal2Body.appendChild(modal2Img);
-
-    //create Closebtn
-    const closeBtn2 = document.createElement("button")
-    closeBtn2.innerText = "Retourner à l'accueil";
-    closeBtn2.classList.add("homepageBtn");
-    modal2Body.appendChild(closeBtn2)
-
-    closeBtn.addEventListener("click", () => closeModal())
-    closeBtn2.addEventListener("click", () => closeModal())
-}
-
-function openModal2(work2Modal) {
-    clearModal();
-    createModal2(work2Modal);
-    document.querySelector('.overlay').style.display = 'block';
-    document.querySelector('.modal-card').classList.add('modal-open')
-    document.querySelector('.sectionFooter').style.display = 'none';
-}
+    }
+});
