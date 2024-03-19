@@ -5,51 +5,55 @@ const modal2Cards = document.querySelector(".modal-2-cards");
 
 const worksofArt = [
     {
-        artistName: "Artiste 1",
-        artName: "Art 1",
-        label1: "Pro",
-        label2: "PopArt",
-        backgroundImage: "assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg",
+        artistName: "SAYPE",
+        artName: "Le soleil a rendez-vous avec la lune",
+        label1: "Land Art",
+        label2: "Ecologie",
+        backgroundImage: "assets/oeuvre/SAYPE.jpg",
         id: "1",
-        keyWord: "artiste Artiste 1 pro Pro popart popArt PopArt Pop Art pop art",
-        texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
-        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
-    },
-
-    {
-        artistName: "Artiste 2",
-        artName: "Art 2",
-        label1: "Test",
-        label2: "Pro",
-        backgroundImage: "assets/oeuvre/street-art-shipping-container-freight-highway-163811.jpeg",
-        id: "2",
-        keyWord: "artiste Artiste 2 Test test pro Pro Art art",
-        texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        alt: "Oeuvre réalisée sur une montagne représentant un enfant dessinant",
+        keyWord: "SAYPE Saype saype soleil lune Le soleil a rendez-vous avec la lune Lune Soleil rendez-vous RENDEZ-VOUS LAND ART Land Art Landart landart Ecologie ECOLOGIE Ecologie",
+        texte: "Dans le village suisse de Villars-sur-Ollon, Saype a utilisé le relief des montagnes comme toile pour créer deux fresques géantes représentant des enfants en train de dessiner la vision du monde qui les entoure. Ces fresques, réalisées avec de la craie et du charbon directement sur l'herbe, montrent un garçon et une fille traçant des lignes sinueuses pour représenter des montagnes, des arbres, des étoiles et la lune. L'artiste suisse-français SAYPE, créateur de ces fresques d'environ 3 000 mètres carrés, affirme que celles-ci symbolisent le rejet de l'uniformité et l'acceptation des différentes perspectives. Les fresques, visibles depuis le sommet de la montagne et les pâturages environnants, durent quelques jours selon les conditions météorologiques. Connu principalement pour sa série Beyond Walls, où il peint des mains géantes se tenant dans différentes villes du monde, SAYPE explore ainsi une nouvelle forme d'expression artistique en intégrant le paysage naturel dans ses créations.",
         backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
 
     {
-        artistName: "Artiste 3",
-        artName: "Art 3",
-        label1: "PopArt",
-        label2: "Culture",
-        backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
+        artistName: "Duane Hanson",
+        artName: "Housewife",
+        label1: "Réalisme",
+        label2: "Société",
+        backgroundImage: "assets/oeuvre/Hanson.jpg",
+        id: "2",
+        alt: "Sculpture réaliste représentant une femme de classe moyenne américaine en train de fumer dans son fauteuil",
+        keyWord: "Duane duane DUANE Hanson HANSON hanson Housewife House wife HOUSEWIFE housewife Réalisme réalisme REALISME realisme société Société SOCIETE",
+        texte: "Housewife est une sculpture emblématique réalisée par l'artiste américain Duane Hanson en 1972. Cette œuvre saisissante capture la vie quotidienne d'une femme au foyer typique des États-Unis des années 1970. La sculpture représente une femme assise sur une chaise, vêtue d'une robe fleurie et portant un tablier, avec un air fatigué et mélancolique. Ce qui rend Housewife si remarquable, c'est le niveau de détail impressionnant et la réalité trompeuse qu'elle offre. Hanson a utilisé des matériaux tels que la résine de polyester et la fibre de verre pour créer une reproduction incroyablement réaliste de la figure humaine. Chaque pli de la peau, chaque veinure des mains, chaque ride du visage est rendu avec une précision étonnante, ce qui donne à la sculpture une présence saisissante. Au-delà de sa qualité technique, Housewife incarne également des thèmes sociaux et culturels profonds. En immortalisant une figure souvent reléguée aux marges de l'histoire de l'art, Hanson souligne l'importance de la vie quotidienne et du travail domestique dans la société américaine. La femme au foyer devient ainsi le symbole de la classe ouvrière, des luttes et des réalités de la vie quotidienne. En exposant Housewife dans des musées et des galeries d'art, Hanson défie les conventions de l'art traditionnel et invite les spectateurs à réfléchir à la valeur de toutes les formes de travail, y compris celles qui sont souvent négligées ou invisibilisées. En fin de compte, Housewife offre un commentaire poignant sur la condition humaine, la classe ouvrière et les rôles de genre dans la société contemporaine.",
+        backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
+    },
+
+    {
+        artistName: "Lady Pink",
+        artName: "Fresque à Welling Court",
+        label1: "Street Art",
+        label2: "Société",
+        backgroundImage: "assets/oeuvre/pink.jpg",
         id: "3",
-        keyWord: "artiste Artiste 3 culture Culture popart popArt PopArt Pop Art pop art",
-        texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
+        alt: "Fresque de street art représentant une déesse amérindienne",
+        keyWord: "Lady Pink Fresque Welling Court LADY PINK FRESQUE WELLING COURT Street Art STREET ART street art StreetArt STREETART streetart société Société SOCIETE ",
+        texte: "La peinture murale à Welling Court est une fresque réalisée par l'artiste de rue Lady Pink. Située dans le quartier de Welling Court (Queens, New York), cette fresque est une œuvre d'art colorée et vibrante qui représente des thèmes sociaux et culturels importants. Pour cette peinture, Lady Pink utilise des couleurs vives et des motifs accrocheurs pour attirer l'attention des spectateurs. L'oeuvre de Lady Pink apporte de l'art dans l'espace public, le rendant accessible à tous ceux qui passent. Lady Pink est l'une des rares femmes à avoir émergé dans le mouvement du graffiti dans les années 1980. Elle a joué un rôle prépondérant en brisant les stéréotypes de genre dans le monde de l'art urbain.  Sa peinture murale dans le Queens est un exemple frappant de son talent artistique et de son engagement envers l'expression créative dans les espaces urbains.",
         backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
     },
 
     {
-        artistName: "Artiste 4",
-        artName: "Art 4",
-        label1: "StreetArt",
-        label2: "Culture",
-        backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
+        artistName: "David Hockney",
+        artName: "A bigger interior with blue terrace and garden",
+        label1: "Pop Art",
+        label2: "Paysage",
+        backgroundImage: "assets/oeuvre/Hockney.jpg",
         id: "4",
-        keyWord: "artiste Artiste 4 culture Culture streetart Streetart streetArt StreetArt Street Art street art",
-        texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
-        backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
+        alt: "Tableau représentant une terrasse donnant sur la verdure",
+        keyWord: "David Hockney DAVID HOCKNEY david hockney Interior INTERIOR interior Blue blue BLUE TERRACE Terrace terrace streetart Streetart streetArt StreetArt Street Art street art",
+        texte: "A Bigger Interior with Blue Terrace and Garden est une œuvre d'art emblématique réalisée par le célèbre artiste britannique David Hockney. Cette peinture représente une scène intérieure avec une terrasse bleue et un jardin, où des éléments architecturaux et des plantes luxuriantes se mélangent dans un espace lumineux et spacieux. Ce qui rend cette œuvre spéciale, c'est l'utilisation audacieuse des couleurs et des formes par Hockney pour créer une composition vibrante et pleine de vie. Les tons bleus dominants, caractéristiques de nombreuses œuvres de Hockney, confèrent à la pièce une atmosphère rafraîchissante et contemplative. A Bigger Interior with Blue Terrace and Garden reflète l'intérêt de Hockney pour la représentation de l'espace et de la lumière, ainsi que sa fascination pour les environnements domestiques et les paysages naturels. Cette peinture invite les spectateurs à se perdre dans un monde imaginaire où la réalité et l'imagination se fondent harmonieusement. En exposant cette œuvre dans des galeries et des musées du monde entier, Hockney a contribué à élargir notre compréhension de l'art contemporain et à inspirer de nouvelles générations d'artistes. A Bigger Interior with Blue Terrace and Garden reste un témoignage durable du talent et de la vision créative de l'un des plus grands artistes de notre époque.",
+        backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
 
     {
@@ -93,7 +97,7 @@ const worksofArt = [
         artName: "Art 8",
         label1: "PopArt",
         label2: "Pro",
-        backgroundImage: "assets/oeuvre/PixArt.png",
+        backgroundImage: "assets/oeuvre/Antho.jpeg",
         id: "8",
         keyWord: "artiste Artiste 8 pro Pro popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
@@ -123,6 +127,7 @@ function createCard(workofArt) {
     card.classList.add("card");
     card.setAttribute('id', workofArt.id);
     card.style.backgroundImage = `url(${workofArt.backgroundImage})`;
+    card.alt = `${workofArt.alt}`;
     cards.appendChild(card);
 
     //create Header
@@ -149,22 +154,27 @@ function createCard(workofArt) {
     cardBody.classList.add("card-body");
     card.appendChild(cardBody);
 
+    // create flex section
+    const cardFlex = document.createElement("div");
+    cardFlex.classList.add("card-flex");
+    cardBody.appendChild(cardFlex);
+
     //create artist name
     const cardTitle = document.createElement("h2");
     cardTitle.classList.add("card-title");
     cardTitle.innerText = `${workofArt.artistName}`;
-    cardBody.appendChild(cardTitle);
+    cardFlex.appendChild(cardTitle);
 
     //create art name
     const cardTitle2 = document.createElement("h3");
     cardTitle2.classList.add("card-title2");
     cardTitle2.innerText = `${workofArt.artName}`;
-    cardBody.appendChild(cardTitle2);
+    cardFlex.appendChild(cardTitle2);
 
     //create label parent
     const cardLabel = document.createElement("div");
     cardLabel.classList.add("card-label");
-    cardBody.appendChild(cardLabel);
+    cardFlex.appendChild(cardLabel);
 
     //create label 1
     const cardLabel1 = document.createElement("p");
@@ -213,26 +223,26 @@ function createModalCard(workofArt) {
     //create Image
     const modalImg = document.createElement("div");
     modalImg.style.backgroundImage = `url(${workofArt.backgroundImage})`;
+    modalImg.alt = `${workofArt.alt}`;
     modalImg.classList.add("modal-img");
     modalHeader.appendChild(modalImg);
-
-    //create artist name
-    const modalTitle = document.createElement("h2");
-    modalTitle.classList.add("modal-title");
-    modalTitle.innerText = `${workofArt.artistName}`;
-    modalHeader.appendChild(modalTitle);
-
-    //create art name
-    const modalTitle2 = document.createElement("h3");
-    modalTitle2.classList.add("modal-title2");
-    modalTitle2.innerText = `${workofArt.artName}`;
-    modalHeader.appendChild(modalTitle2);
-
 
     //create body
     const modalBody = document.createElement("div");
     modalBody.classList.add("modal-body");
     modalCard.appendChild(modalBody);
+
+    //create artist name
+    const modalTitle = document.createElement("h2");
+    modalTitle.classList.add("modal-title");
+    modalTitle.innerText = `${workofArt.artistName}`;
+    modalBody.appendChild(modalTitle);
+
+    //create art name
+    const modalTitle2 = document.createElement("h3");
+    modalTitle2.classList.add("modal-title2");
+    modalTitle2.innerText = `${workofArt.artName}`;
+    modalBody.appendChild(modalTitle2);
 
     //create text
     const modalText = document.createElement("p");
@@ -310,6 +320,7 @@ function createModal2(workofArt) {
     //create Image
     const modal2Img = document.createElement("img");
     modal2Img.src = workofArt.backgroundImage;
+    modal2Img.alt = `${workofArt.alt}`;
     modal2Img.classList.add("modal-img-1");
     modal2Body.appendChild(modal2Img);
 

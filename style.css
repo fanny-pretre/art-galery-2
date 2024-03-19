@@ -100,13 +100,19 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
 .card-body {
-    position: relative;
-    top: 19rem;
-    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    align-items: last baseline;
 }
+
+.card-flex {
+    margin: 1rem;
+}
+
 
 .clic {
     width: 3rem;
@@ -193,17 +199,15 @@ nav {
 }
 
 /*Le footer (dernière page)*/
-#footer {
+footer {
     background-color: var(--secondary-color);
-    height: 100vh;
-    width: 100vw;
 }
 
 #footerTexts {
-    position: relative;
-    top: 2rem;
+    display: flex;
     justify-content: left;
     align-items: center;
+    height: 70vh;
 }
 
 #footerText {
@@ -211,14 +215,6 @@ nav {
     font-family: var(--primary-font);
     font-size: 3rem;
     padding: 2rem;
-    margin: 0;
-}
-
-#footerLink {
-    color: var(--tertiary-color);
-    font-family: var(--secondary-font);
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
     margin: 0;
 }
 
@@ -406,13 +402,13 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     cursor: zoom-in;
+    background-position: center;
 }
 
 
 .modal-img-1 {
     height: 100%;
     width: 100%;
-    margin-top background-position: center;
 }
 
 .modal-title {
@@ -427,7 +423,6 @@ nav {
     font-size: 1rem;
     font-family: var(--secondary-font);
     font-weight: 500;
-    margin-top: 150px;
 }
 
 .modal-label {
@@ -457,15 +452,11 @@ nav {
     cursor: pointer;
 }
 
-/*Le responsive 1 */
+/*Le responsive*/
 
 /* téléphone en portrait*/
 
 @media screen and (min-width : 576px) and (max-width: 767px) {
-
-    .card-body {
-        top: 25rem;
-    }
 
 
     .buttonImg {
@@ -494,20 +485,8 @@ nav {
         font-size: 1.2rem;
     }
 
-    #sectionFooter {
-        font-size: 1.8rem;
-    }
-
-    #footerTexts {
-        top: 2.3rem;
-    }
-
     #footerText {
         font-size: 4rem;
-    }
-
-    #footerLink {
-        font-size: 1.8rem;
     }
 
     #sectionRecherche {
@@ -534,19 +513,9 @@ nav {
         width: 8rem;
     }
 
-    .card-body {
-        padding-left: 5rem;
-        top: 23rem;
-    }
-
     .buttonImg {
         width: 2.5rem;
     }
-
-    #sectionFooter {
-        font-size: 2rem;
-    }
-
 
     h2 {
         font-size: 1.9rem;
@@ -560,17 +529,10 @@ nav {
         font-size: 1.4rem;
     }
 
-    #footerTexts {
-        top: 2.5rem;
-    }
-
     #footerText {
         font-size: 4.6rem;
     }
 
-    #footerLink {
-        font-size: 2rem;
-    }
 
     .navP {
         font-size: 1.6rem;
@@ -583,10 +545,6 @@ nav {
 
     .gridRechercheImg {
         height: 70%;
-    }
-
-    .sectionFooter {
-        font-size: 2rem;
     }
 
     .modalBtn {
@@ -603,10 +561,8 @@ nav {
     }
 
     .card-body {
-        padding-left: 5rem;
-        top: 20rem;
+        padding-left: 2rem;
     }
-
 
     .buttonImg {
         width: 2.8rem;
@@ -617,22 +573,12 @@ nav {
         height: 4rem;
     }
 
-    #sectionFooter {
-        font-size: 2.3rem;
-    }
-
-
     h2 {
         font-size: 2.2rem;
     }
 
     h3 {
         font-size: 4rem;
-    }
-
-    #footerTexts {
-        top: 1rem;
-        padding: 2rem;
     }
 
     .card-label-1 {
@@ -643,21 +589,10 @@ nav {
         font-size: 5.2rem;
     }
 
-    #footerLink {
-        font-size: 2.4rem;
-    }
-
-    .modal-text {
-        margin-top: 200px;
-    }
-
     .modalBtn {
         width: 2rem;
     }
 
-    .sectionFooter {
-        font-size: 2.3rem;
-    }
 
     #sectionRecherche {
         width: 50%;
@@ -678,75 +613,37 @@ nav {
     }
 
     .card-body {
-        padding-left: 5rem;
-        top: 14rem;
-    }
-
-    nav {
-        margin-bottom: 0.8rem;
+        padding-left: 2rem;
     }
 
     .buttonImg {
         width: 2.8rem;
     }
 
-
     .clic {
         width: 5rem;
         height: 5rem;
     }
 
-    #sectionFooter {
-        font-size: 2.3rem;
-    }
-
-    .sectionFooter {
-        font-size: 2.3rem;
-    }
-
     h2 {
         font-size: 2.8rem;
-        margin-left: 50px;
     }
 
     h3 {
         font-size: 5.2rem;
-        margin-left: 50px;
     }
 
-    .modal-label {
-        margin-left: 50px;
-    }
-
-    #footerTexts {
-        top: 1rem;
-        padding: 2rem;
-    }
-
-    .card-label {
-        margin-left: 50px;
+    .modal-body {
+        margin: 0 10rem;
     }
 
     .card-label-1 {
         font-size: 1.3rem;
     }
 
-    #footerTexts {
-        top: 1rem;
-        padding: 2rem;
-    }
-
     #footerText {
-        font-size: 5.2rem;
-    }
-
-    #footerLink {
-        font-size: 2.4rem;
-    }
-
-    .modal-text {
-        margin: 200px 50px 0;
-
+        font-size: 7rem;
+        margin: 0 5rem;
     }
 
     .modalBtn {
@@ -787,5 +684,9 @@ nav {
         height: auto;
         width: auto;
         padding: 10px;
+    }
+
+    .navP {
+        font-size: 2rem;
     }
 }
