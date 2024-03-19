@@ -7,11 +7,11 @@ const worksofArt = [
     {
         artistName: "Artiste 1",
         artName: "Art 1",
-        label1: "Proute",
+        label1: "Pro",
         label2: "PopArt",
         backgroundImage: "assets/oeuvre/free-photo-of-lunettes-de-soleil-art-creatif-festival.jpeg",
-        id: "1",
-        keyWord: "proute Proute popart popArt PopArt Pop Art pop art",
+        id : "1",
+        keyWord: "artiste Artiste 1 pro Pro popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
@@ -20,10 +20,10 @@ const worksofArt = [
         artistName: "Artiste 2",
         artName: "Art 2",
         label1: "Test",
-        label2: "PourquoiPas",
+        label2: "Pro",
         backgroundImage: "assets/oeuvre/street-art-shipping-container-freight-highway-163811.jpeg",
-        id: "2",
-        keyWord: "Test test pk pas Espace",
+        id : "2",
+        keyWord: "artiste Artiste 2 Test test pro Pro Art art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
@@ -34,8 +34,8 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
-        id: "3",
-        keyWord: "culture Culture popart popArt PopArt Pop Art pop art",
+        id : "3",
+        keyWord: "artiste Artiste 3 culture Culture popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
     },
@@ -46,8 +46,8 @@ const worksofArt = [
         label1: "StreetArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/pexels-photo-1194420.jpeg",
-        id: "4",
-        keyWord: "culture Culture streetart Streetart streetArt StreetArt Street Art street art",
+        id : "4",
+        keyWord: "artiste Artiste 4 culture Culture streetart Streetart streetArt StreetArt Street Art street art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(250, 215, 49, 0.7)", //jaune
     },
@@ -58,8 +58,8 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Space",
         backgroundImage: "assets/oeuvre/musee-art-contemporain-mac-paola-pivi.jpeg",
-        id: "5",
-        keyWord: "space Space espace Espace popart popArt PopArt Pop Art pop art",
+        id : "5",
+        keyWord: "artiste Artiste 5 space Space espace Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
@@ -70,8 +70,8 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/jeff-koons-ballerina-sculpture-3.jpg",
-        id: "6",
-        keyWord: "culture Culture Espace popart popArt PopArt Pop Art pop art",
+        id : "6",
+        keyWord: "artiste Artiste 6 culture Culture Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
@@ -82,8 +82,8 @@ const worksofArt = [
         label1: "PopArt",
         label2: "Culture",
         backgroundImage: "assets/oeuvre/Ben-Turnbull-Supermen-Eleven-yatzer-4.jpg",
-        id: "7",
-        keyWord: "culture Culture Espace popart popArt PopArt Pop Art pop art",
+        id : "7",
+        keyWord: "artiste Artiste 7 culture Culture Espace popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(56, 189, 242, 0.7)", //bleu
     },
@@ -92,10 +92,10 @@ const worksofArt = [
         artistName: "Artiste 8",
         artName: "Art 8",
         label1: "PopArt",
-        label2: "Proute",
+        label2: "Pro",
         backgroundImage: "assets/oeuvre/PixArt.png",
-        id: "8",
-        keyWord: "proute Proute popart popArt PopArt Pop Art pop art",
+        id : "8",
+        keyWord: "artiste Artiste 8 pro Pro popart popArt PopArt Pop Art pop art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
@@ -105,9 +105,8 @@ const worksofArt = [
         label1: "Space",
         label2: "StreetArt",
         backgroundImage: "assets/oeuvre/Test.jpg",
-        id: "9",
-        keyWord: "space Space espace Espace streetart Streetart streetArt StreetArt Street Art street art",
-        // keyWord: ["space", "Space", "espace", "Espace"],
+        id : "9",
+        keyWord: "artiste Artiste 9 space Space espace Espace streetart Streetart streetArt StreetArt Street Art street art",
         texte: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat et erat id malesuada. Maecenas scelerisque neque arcu, ac luctus sapien hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sed hendrerit lacus. Nullam tempor lacinia sapien auctor ullamcorper. Cras accumsan, sem et sodales vulputate, tellus mauris lobortis est, nec feugiat orci erat eu justo. Aliquam vitae accumsan purus. Morbi tortor nisl, consequat luctus purus id, congue posuere nisl. Praesent sit amet augue pellentesque, consectetur tellus ut, mollis dolor. Etiam dictum quam nec massa mattis, id porttitor urna aliquam. Mauris finibus, nisi vitae dapibus viverra, arcu neque cursus dolor, a faucibus purus ante eu mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum lorem eget massa sollicitudin ultricies et id justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vitae bibendum tortor, quis sagittis ex. Sed id justo vel libero dapibus volutpat vel ut dui. ",
         backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
@@ -127,7 +126,6 @@ function createCard(workofArt) {
     cards.appendChild(card);
 
     //create Header
-
     const cardHeader = document.createElement("div");
     cardHeader.classList.add("card-header");
     card.appendChild(cardHeader);
@@ -183,7 +181,10 @@ function createCard(workofArt) {
     card.addEventListener("click", () => openModal(workofArt, createModalCard, cardHeader));
 }
 
-// Data modal
+// Création des cartes
+for (let i = 0; i < worksofArt.length; i++) {
+    createCard(worksofArt[i]);
+}
 
 // To create the first modal
 
@@ -381,7 +382,7 @@ async function downloadImg(workofArt) {
 }
 
 
-
+// Barre de Recherche
 
 // Bouton d'affichage de la Barre de Recherche
 
@@ -425,12 +426,12 @@ function addImgRecherche(workofArt) {
     ImgRecherche.setAttribute('href', '#' + workofArt.id);
     ImgRecherche.style.backgroundImage = `url(${workofArt.backgroundImage})`;
     elementRecherche.appendChild(ImgRecherche);
-
+    return ImgRecherche;
 }
 // ---
 
 for (let i = 0; i < worksofArt.length; i++) {
-    addImgRecherche(worksofArt[i]);
+    clickImgToClosed(addImgRecherche(worksofArt[i]));
 }
 
 
@@ -438,33 +439,36 @@ for (let i = 0; i < worksofArt.length; i++) {
 
 const popArtClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for (let i = 0; i < worksofArt.length; i++) {
-        if ("PopArt" === worksofArt[i].label1 || "PopArt" === worksofArt[i].label2) {
-            addImgRecherche(worksofArt[i]);
+
+    for(let i = 0; i < worksofArt.length; i++) {
+        if("PopArt" === worksofArt[i].label1 || "PopArt" === worksofArt[i].label2) {
+            clickImgToClosed(addImgRecherche(worksofArt[i]));
         }
     }
 }
+
 const streetArtClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for (let i = 0; i < worksofArt.length; i++) {
-        if ("StreetArt" === worksofArt[i].label1 || "StreetArt" === worksofArt[i].label2) {
-            addImgRecherche(worksofArt[i]);
+    for(let i = 0; i < worksofArt.length; i++) {
+        if("StreetArt" === worksofArt[i].label1 || "StreetArt" === worksofArt[i].label2) {
+            clickImgToClosed(addImgRecherche(worksofArt[i]));
         }
     }
 }
 const cultureClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    for (let i = 0; i < worksofArt.length; i++) {
-        if ("Culture" === worksofArt[i].label1 || "Culture" === worksofArt[i].label2) {
-            addImgRecherche(worksofArt[i]);
+
+    for(let i = 0; i < worksofArt.length; i++) {
+        if("Culture" === worksofArt[i].label1 || "Culture" === worksofArt[i].label2) {
+            clickImgToClosed(addImgRecherche(worksofArt[i]));
         }
     }
 }
 const allClic = () => {
     document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
     for (let i = 0; i < worksofArt.length; i++) {
-        addImgRecherche(worksofArt[i]);
-    }
+            clickImgToClosed(addImgRecherche(worksofArt[i]));
+    }  
 }
 
 // Affichage des oeuvres par barre de recherche
@@ -472,33 +476,46 @@ const allClic = () => {
 const search = () => {
     const userSearch = document.getElementById("inputRecherche").value;
     const userSearchNone = document.getElementById("inputRecherche");
-    document.querySelectorAll(".gridRechercheImgModal").forEach(e => e.remove());
-    if (document.querySelectorAll(".gridRechercheImgModal") !== null) {
-        for (let i = 0; i < worksofArt.length; i++) {
-            if (worksofArt[i].keyWord.includes(userSearch) == true) {
-                addImgRecherche(worksofArt[i]);
+    const allImage = document.querySelectorAll(".gridRechercheImgModal");
+
+    // Ici, je checher à savoir si le mot clé saisi par l'utilisateur 
+    // est connu dans mon array `worksofArt`.
+    const displayImg = worksofArt.filter(img => img.keyWord.includes(userSearch))
+
+    // permet de supprimer les images 
+    allImage.forEach(e => e.remove());
+
+    // Si displayImg est supérieur à 0 donc j'ai des oeuvres
+    if(displayImg.length > 0){
+        for(let i = 0; i < worksofArt.length; i++) { 
+            // if(worksofArt[i].keyWord.includes(userSearch) || worksofArt[i].artistName.includes(userSearch) || worksofArt[i].artName.includes(userSearch)) {}  marche pas
+            if(worksofArt[i].keyWord.includes(userSearch)) {
+                clickImgToClosed(addImgRecherche(worksofArt[i]));
+
                 userSearchNone.placeholder = "stylé";
-            } else if (worksofArt[i].keyWord.includes(userSearch) == false) {
-                console.log("rien");
             }
         }
-    } else {
-        userSearchNone.placeholder = "stylé";
-        userSearchNone.value = `Je n'ai rien trouvé, tu peux essayé ' ${worksofArt[i].label1} ' si tu veux.`;
-        console.log(" vraiment rien");
-    }
+
+    } 
+    // sinon, j'affiche 
+    else {
+        const random = Math.ceil(Math.random() * worksofArt.length)
+        userSearchNone.placeholder = `Je n'ai rien trouvé, tu peux essayé '${worksofArt[random].label1}' si tu veux.`;
+        userSearchNone.value = "";
+        console.log("vraiment rien");
+    } 
 }
 
-// Close barre de recherche en cliquant sur image
+function clickImgToClosed(img) {
+    img.addEventListener("click", () => {
 
-document.querySelectorAll(".gridRechercheImgModal").forEach(closeRechercheImg =>
-    closeRechercheImg.addEventListener("click", () => {
         const sectionRecherche = document.getElementById("sectionRecherche");
-        const sectionFooter = document.getElementById("sectionFooter")
-        sectionRecherche.style.display = "none";
-        sectionFooter.style.display = "block";
+         const sectionFooter = document.getElementById("sectionFooter")
+         sectionRecherche.style.display = "none";
+         sectionFooter.style.display = "block";
     })
-)
+}
+
 
 //Key Enter
 
