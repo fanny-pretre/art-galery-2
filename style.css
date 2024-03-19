@@ -74,19 +74,6 @@ button {
     background-color: transparent;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4rem;
-
-}
-
-.navP {
-    text-shadow: 1px 1px 2px var(--secondary-color);
-}
-
-
 /*Pour gérer le scroll*/
 .container {
     height: 100vh;
@@ -112,6 +99,7 @@ nav {
 .card-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card-body {
@@ -121,7 +109,8 @@ nav {
 }
 
 .clic {
-    width: 5rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 
@@ -135,7 +124,7 @@ nav {
     gap: 30px;
     font-family: var(--secondary-font);
     font-weight: 700;
-    padding: 10px 0px 30px 20px;
+    padding: 10px 0px 30px 0;
 
 }
 
@@ -154,15 +143,15 @@ nav {
     align-items: center;
     text-align: center;
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: white;
 }
 
 #sectionFooter nav {
-   backdrop-filter: blur(2px);  
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    backdrop-filter: blur(2px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .sectionFooter nav {
@@ -171,14 +160,26 @@ nav {
     border-top-right-radius: 10px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    cursor: default;
+
+}
+
+
 .navP {
     text-shadow: 1px 1px 2px var(--secondary-color);
+
 }
 
 .buttonImg {
     width: 25px;
     display: flex;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -188,6 +189,7 @@ nav {
     background-image: url("assets/oeuvre/chat.jpg");
     background-position: center;
     z-index: 9;
+    cursor: default;
 }
 
 /*Le footer (dernière page)*/
@@ -224,6 +226,7 @@ nav {
     color: var(--quaternary-color);
 }
 
+/* La barre de recherche */
 
 #sectionRecherche {
     display: none;
@@ -335,209 +338,7 @@ nav {
     background-color: var(--primary-color);
 }
 
-/*Le responsive */
 
-/* téléphone en portrait*/
-
-@media screen and (min-width : 576px) and (max-width: 767px) {
-
-    .artInfo {
-        top: 25rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    h3 {
-        font-size: 3.5rem;
-    }
-
-    .label {
-        font-size: 1.2rem;
-    }
-
-
-    #footerTexts {
-        top: 2.3rem;
-    }
-
-    #footerText {
-        font-size: 4rem;
-    }
-
-    #footerLink {
-        font-size: 1.8rem;
-    }
-    #sectionRecherche {
-        width: 95%;
-        height: 85%;
-    }
-
-}
-
-/*tablette*/
-
-@media screen and (min-width : 768px) and (max-width: 991px) {
-
-    button {
-        width: 45px;
-        height: 45px;
-    }
-
-    .sectionFooter {
-        font-size: 2rem;
-    }
-
-    .buttonImg {
-        width: 40px;
-    }
-
-    h2 {
-        font-size: 1.9rem;
-    }
-
-    h3 {
-        font-size: 3.8rem;
-    }
-
-    .label {
-        font-size: 1.4rem;
-    }
-
-    #footerTexts {
-        top: 2.5rem;
-    }
-
-    #footerText {
-        font-size: 4.6rem;
-    }
-
-    #footerLink {
-        font-size: 2rem;
-    }
-    #sectionRecherche {
-        width: 70%;
-        height: 85%;
-    }
-    .gridRechercheImg{
-        height: 72%;
-    }
-}
-
-/*Desktop*/
-@media screen and (min-width : 992px) and (max-width: 1200px) {
-
-    .sectionFooter {
-        font-size: 2.3rem;
-    }
-
-    .buttonImg {
-        width: 40px;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    h3 {
-        font-size: 4rem;
-    }
-
-    .label {
-        font-size: 1.5rem;
-    }
-
-    #footerTexts {
-        top: 1rem;
-        padding: 2rem;
-    }
-
-    #footerText {
-        font-size: 5.2rem;
-    }
-
-    #footerLink {
-        font-size: 2.4rem;
-    }
-    #sectionRecherche {
-        width: 50%;
-        height: 85%;
-    }
-
-}
-
-/*Grand écran*/
-
-@media screen and (min-width :1201px) {
-
-    .sectionFooter {
-        font-size: 2.3rem;
-    }
-
-    .buttonImg {
-        width: 40px;
-    }
-
-    .clic {
-        width: 5rem;
-        padding: 2rem;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    h3 {
-        font-size: 4rem;
-    }
-
-    .label {
-        font-size: 1.5rem;
-    }
-
-    #footerTexts {
-        top: 1rem;
-        padding: 2rem;
-    }
-
-    #footerText {
-        font-size: 6.1rem;
-    }
-
-    #footerLink {
-        font-size: 2.6rem;
-    }
-    #sectionRecherche {
-        width: 50%;
-        height: 85%;
-    }
-    .gridRechercheImg{
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: 400px;
-        grid-auto-columns: 400px;
-        grid-auto-rows: auto;
-        grid-gap: 10px;
-        margin: 10px;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px; 
-        overflow: hidden;
-        overflow-x: auto;
-        overflow-y: hidden;
-        overflow : -moz-scrollbars-vertical;
-        grid-gap: 10px;
-        height: 74%;
-        width: auto;
-        padding: 10px;
-    }
-    .gridRechercheImg a{
-        justify-content: center;
-        height: auto;
-        width: auto;
-        padding: 10px;
-    }
-}
 
 /*La Modal*/
 
@@ -570,17 +371,16 @@ nav {
 }
 
 .modal-close {
-    height: 30px;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: right;
     transition: 0.3s all ease-in-out;
-    margin-right: 10px;
+    margin: 0 40px;
 }
 
 .close {
-    height: 20px;
-    width: 20px;
+    width: 1.3rem;
     cursor: pointer;
 }
 
@@ -588,7 +388,7 @@ nav {
     height: 50%;
     display: block;
     text-align: left;
-    margin: 20px 40px;
+    margin: 0 40px;
 }
 
 .modal-img {
@@ -596,7 +396,7 @@ nav {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    cursor: pointer;
+    cursor: zoom-in;
 }
 
 
@@ -634,4 +434,329 @@ nav {
     padding: 0.8rem 0.8rem;
 }
 
+.button-section {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.modalBtn {
+    width: 1.3rem;
+    cursor: pointer;
+}
+
+////////////
+
+/*Le responsive 1 */
+
+/* téléphone en portrait*/
+
+@media screen and (min-width : 576px) and (max-width: 767px) {
+
+    .card-body {
+        top: 20rem;
+    }
+  
+   .artInfo {
+        top: 25rem;
+    }
+
+    .buttonImg {
+        width: 2rem;
+    }
+
+    .clic {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .modalBtn {
+        width: 1.6rem;
+    }
+
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    .label {
+        font-size: 1.2rem;
+    }
+
+    #sectionFooter {
+        font-size: 1.8rem;
+    }
+
+    #footerTexts {
+        top: 2.3rem;
+    }
+
+    #footerText {
+        font-size: 4rem;
+    }
+
+    #footerLink {
+        font-size: 1.8rem;
+    }
+  
+  #sectionRecherche {
+        width: 95%;
+        height: 85%;
+    }
+
+}
+
+
+/*tablette*/
+
+@media screen and (min-width : 768px) and (max-width: 991px) {
+
+    .logoSection {
+        width: 8rem;
+    }
+
+    .card-body {
+        padding-left: 5rem;
+        top: 25rem;
+    }
+
+    .buttonImg {
+        width: 2.5rem;
+    }
+
+    #sectionFooter {
+        font-size: 2rem;
+    }
+
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 3.8rem;
+    }
+
+    .label {
+        font-size: 1.4rem;
+    }
+
+    #footerTexts {
+        top: 2.5rem;
+    }
+
+    #footerText {
+        font-size: 4.6rem;
+    }
+
+    #footerLink {
+        font-size: 2rem;
+    }
+  
+   #sectionRecherche {
+        width: 70%;
+        height: 85%;
+    }
+    .gridRechercheImg{
+        height: 72%;
+    }
+  
+  .sectionFooter {
+        font-size: 2rem;
+    }
+}
+
+
+/*Desktop*/
+@media screen and (min-width : 992px) and (max-width: 1200px) {
+
+    .logoSection {
+        width: 8rem;
+    }
+
+    .card-body {
+        padding-left: 5rem;
+        top: 22rem;
+    }
+
+
+    .buttonImg {
+        width: 2.8rem;
+    }
+
+    .clic {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    #sectionFooter {
+        font-size: 2.3rem;
+    }
+
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    #footerTexts {
+        top: 1rem;
+        padding: 2rem;
+    }
+
+    .card-label-1 {
+        font-size: 1.3rem;
+    }
+
+    #footerText {
+        font-size: 5.2rem;
+    }
+
+    #footerLink {
+        font-size: 2.4rem;
+    }
+
+    .modal-text {
+        margin-top: 200px;
+    }
+
+    .modalBtn {
+        width: 2rem;
+    }
+  
+  .sectionFooter {
+        font-size: 2.3rem;
+    }
+   #sectionRecherche {
+        width: 50%;
+        height: 85%;
+    }
+}
+
+/*Grand écran*/
+
+@media screen and (min-width :1201px) {
+
+    .logoSection {
+        width: 10rem;
+    }
+
+    .card-body {
+        padding-left: 5rem;
+        top: 18rem;
+    }
+
+    nav {
+        margin-bottom: 0.8rem;
+    }
+
+    .buttonImg {
+        width: 2.8rem;
+    }
+
+
+    .clic {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #sectionFooter {
+        font-size: 2.3rem;
+    }
+  
+   .sectionFooter {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+        margin-left: 50px;
+    }
+
+    h3 {
+        font-size: 5.2rem;
+        margin-left: 50px;
+    }
+
+    .modal-label {
+        margin-left: 50px;
+    }
+
+    #footerTexts {
+        top: 1rem;
+        padding: 2rem;
+    }
+
+    .card-label {
+        margin-left: 50px;
+    }
+
+    .card-label-1 {
+        font-size: 1.3rem;
+    }
+  
+   #footerTexts {
+        top: 1rem;
+        padding: 2rem;
+    }
+
+    #footerText {
+        font-size: 5.2rem;
+    }
+
+    #footerLink {
+        font-size: 2.4rem;
+    }
+
+    .modal-text {
+        margin: 200px 50px 0;
+
+    }
+
+    .modalBtn {
+        width: 2rem;
+    }
+
+    .modal-img-1 {
+        margin-bottom: 50px;
+    }
+  
+   #sectionRecherche {
+        width: 50%;
+        height: 85%;
+    }
+    .gridRechercheImg{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 400px;
+        grid-auto-columns: 400px;
+        grid-auto-rows: auto;
+        grid-gap: 10px;
+        margin: 10px;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px; 
+        overflow: hidden;
+        overflow-x: auto;
+        overflow-y: hidden;
+        overflow : -moz-scrollbars-vertical;
+        grid-gap: 10px;
+        height: 74%;
+        width: auto;
+        padding: 10px;
+    }
+    .gridRechercheImg a{
+        justify-content: center;
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
+}
 
