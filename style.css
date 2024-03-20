@@ -3,6 +3,8 @@
     --secondary-color: #262626;
     --tertiary-color: white;
     --quaternary-color: #D9326F;
+    --fifth-color: #FAD731;
+    --sixth-color: #8C851F;
     --alternative-black: black;
     --primary-font: "Anton", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
@@ -199,15 +201,21 @@ nav {
 }
 
 /*Le footer (dernière page)*/
+
+#footer {
+    cursor: default;
+}
+
 footer {
     background-color: var(--secondary-color);
+
 }
 
 #footerTexts {
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 70vh;
+    height: 65vh;
 }
 
 #footerText {
@@ -218,8 +226,27 @@ footer {
     margin: 0;
 }
 
-.pinkText {
+#Fanny {
     color: var(--quaternary-color);
+}
+
+#David {
+    color: var(--primary-color);
+}
+
+#Nicolas {
+    color: var(--fifth-color);
+}
+
+#Simon {
+    color: var(--sixth-color);
+}
+
+#footerLink {
+    font-family: var(--secondary-font);
+    color: white;
+    padding: 0 2rem;
+    margin: 0;
 }
 
 /* La barre de recherche */
@@ -389,20 +416,18 @@ footer {
     cursor: pointer;
 }
 
-.modal-header {
-    height: 50%;
-    display: block;
-    text-align: left;
-    margin: 0 40px;
-}
-
 .modal-img {
     height: 100%;
     width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     cursor: zoom-in;
     background-position: center;
+}
+
+.modal-copyright {
+    font-family: var(--secondary-font);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -550,8 +575,11 @@ footer {
     .modalBtn {
         width: 1.3rem;
     }
-}
 
+    #footerLink {
+        font-size: 1.5rem;
+    }
+}
 
 /*Desktop*/
 @media screen and (min-width : 992px) and (max-width: 1200px) {
@@ -602,6 +630,24 @@ footer {
     .navP {
         font-size: 1.8rem;
     }
+
+    .modal-section {
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-img {
+        width: auto;
+    }
+
+    .modal-title {
+        padding-top: 0px;
+    }
+
+    #footerLink {
+        font-size: 2rem;
+    }
 }
 
 /*Grand écran*/
@@ -637,12 +683,26 @@ footer {
         margin: 0 10rem;
     }
 
+    .modal-section {
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-img {
+        width: auto;
+    }
+
+    .modal-title {
+        padding-top: 0px;
+    }
+
     .card-label-1 {
         font-size: 1.3rem;
     }
 
     #footerText {
-        font-size: 7rem;
+        font-size: 6rem;
         margin: 0 5rem;
     }
 
@@ -651,7 +711,7 @@ footer {
     }
 
     .modal-img-1 {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     #sectionRecherche {
@@ -688,5 +748,10 @@ footer {
 
     .navP {
         font-size: 2rem;
+    }
+
+    #footerLink {
+        font-size: 2rem;
+        margin: 0 5rem;
     }
 }
