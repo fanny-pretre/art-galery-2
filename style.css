@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --primary-color: #38BDF2;
     --secondary-color: #262626;
@@ -9,25 +11,6 @@
     --primary-font: "Anton", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-/*
-.montserrat-<uniquifier> {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-  .anton-regular {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  */
-
 
 
 /* LES GENERIQUES */
@@ -103,6 +86,7 @@ button {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    cursor: default;
 }
 
 .card-body {
@@ -119,12 +103,14 @@ button {
 .clic {
     width: 3rem;
     height: 3rem;
+    cursor: pointer;
 }
 
 
 .logoSection {
     width: 6rem;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .card-label {

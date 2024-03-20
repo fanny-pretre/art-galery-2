@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallerie d'art interactive - Virtu'ART</title>
+    <title> Gallerie d'art interactive - Virtu'ART</title>
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">
     <script src="scripts.js" defer></script>
@@ -12,53 +12,55 @@
 
 <body>
 
-    <section class="container">
+    <h1> Virtu'ART</h1>
 
-        <!-- Accueil -->
-        <section class="card" id="background1">
-            <header>
-                <img src="assets/Logo.png" alt="logo">
-            </header>
-            <div class="sectionFooter" id="sectionFooter">
-                <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
-                <nav>
-                    <button id="btnRecherche"><img src="assets/icons/icone-loupe-noir.png" alt="recherche"
-                            class="buttonImg"></button>
+    <main>
 
-                    <p class="navP"> Faites défiler pour découvrir</p>
-                    <a href="#footer"><img src="assets/icons/i.png" alt="information" class="buttonImg"></a>
-                </nav>
-                <h1> Virtu'ART</h1>
-            </div>
+        <section class="container">
+
+            <!-- Accueil -->
+            <section class="card" id="background1">
+                <header>
+                    <img src="assets/Logo.png" alt="logo" id="myAnchor">
+                </header>
+                <div class="sectionFooter" id="sectionFooter">
+                    <button> <img src="assets/icons/test.png" alt="flèche du bas" class="buttonImg"></button>
+                    <nav>
+                        <button id="btnRecherche"><img src="assets/icons/icone-loupe-noir.png" alt="recherche"
+                                class="buttonImg"></button>
+
+                        <p class="navP"> Faites défiler pour découvrir</p>
+                        <a href="#footer"><img src="assets/icons/i.png" alt="information" class="buttonImg"></a>
+                    </nav>
+                </div>
 
 
-            <!-- Barre de recherche -->
-            <div id="sectionRecherche">
-                <section class="gridRechercheImg"></section>
-                <section class="inputRecherche">
-                    <div class="propositionRecherche">
-                        <p class="p1" id="popArtClic" onclick="popArtClic()">#PopArt</p>
-                        <p class="p2" id="streetArtClic" onclick="streetArtClic()">#StreetArt</p>
-                        <p class="p1" id="cultureClic" onclick="cultureClic()">#Culture</p>
-                        <p class="p2" id="allClic" onclick="allClic()">#All</p>
+                <!-- Barre de recherche -->
+                <div id="sectionRecherche">
+                    <div class="gridRechercheImg"></div>
+                    <div class="inputRecherche">
+                        <div class="propositionRecherche">
+                            <p class="p1" id="popArtClic" onclick="popArtClic()">#PopArt</p>
+                            <p class="p2" id="streetArtClic" onclick="streetArtClic()">#StreetArt</p>
+                            <p class="p1" id="cultureClic" onclick="cultureClic()">#Culture</p>
+                            <p class="p2" id="allClic" onclick="allClic()">#All</p>
+                        </div>
+                        <div id="myForm">
+                            <input placeholder="Faites votre recherche" id="inputRecherche" type="text" value="">
+                            <button class="btnForm" onclick="search()" id="btnSearch"><img
+                                    src="assets/icons/icone-loupe-noir.png" alt="loupe"></button>
+                        </div>
+                        <button id="btnRecherche2"><img src="assets/icons/fermer.png" alt="recherche"
+                                class="buttonImgRecherche"></button>
                     </div>
-                    <div id="myForm">
-                        <input id="inputRecherche" type="text" placeholder="Faites votre recherche " value="">
-                        <button placeholder="Recherche" class="btnForm" onclick="search()" id="btnSearch"><img
-                                src="assets/icons/icone-loupe-noir.png"></button>
-                    </div>
-                    <button id="btnRecherche2" placeholder="Recherche"><img src="assets/icons/fermer.png"
-                            alt="recherche" class="buttonImgRecherche"></button>
-                </section>
-            </div>
-            <!-- Fin barre de recherche -->
+                </div>
+                <!-- Fin barre de recherche -->
 
 
-        </section>
-        <!-- Fin d'accueil -->
+            </section>
+            <!-- Fin d'accueil -->
 
 
-        <main>
 
             <!-- Art Section gérée en JS-->
             <div class="cards"></div>
@@ -72,30 +74,27 @@
             <div class="modal-2-cards"> </div>
             <!-- Fin de modale 2-->
 
-
-
-        </main>
-
-        <footer>
-            <section id="footer" class="card">
-                <header>
-                    <img src="assets/Logo.png" alt="logo" id="logoFooter">
-                </header>
-                <section id="footerTexts">
-                    <p id="footerText"> CE SITE A ÉTÉ DÉVELOPPÉ AVEC AMOUR PAR <a target="_blank"
-                            href="https://www.linkedin.com/in/fanny-pr%C3%AAtre-723630114/" id="Fanny">FANNY</a> ,
-                        <a target="_blank" href="https://www.linkedin.com/in/david-lanzetti-b70666195/" id="David">DAVID
-                        </a>, <a target="_blank" href="https://github.com/Nicolas4Loza/" id="Nicolas">NICOLAS </a> & <a
-                            target="_blank" href="https://www.linkedin.com/in/simon-bescheron/" id="Simon"> SIMON </a> !
-                    </p>
-                </section>
-                <p id="footerLink"> Cliquez sur nos noms afin d'être redirigé vers nos pages de contact.</p>
-            </section>
-        </footer>
-
-    </section>
+            <footer>
+                <div id="footer" class="card">
+                    <div id="logoFooter">
+                        <img src="assets/Logo.png" alt="logo" class="logoSection">
+                    </div>
+                    <section id="footerTexts">
+                        <p id="footerText"> CE SITE A ÉTÉ DÉVELOPPÉ AVEC AMOUR PAR <a target="_blank"
+                                href="https://www.linkedin.com/in/fanny-pr%C3%AAtre-723630114/" id="Fanny">FANNY</a> ,
+                            <a target="_blank" href="https://www.linkedin.com/in/david-lanzetti-b70666195/"
+                                id="David">DAVID
+                            </a>, <a target="_blank" href="https://github.com/Nicolas4Loza/" id="Nicolas">NICOLAS </a> &
+                            <a target="_blank" href="https://www.linkedin.com/in/simon-bescheron/" id="Simon"> SIMON
+                            </a> !
+                        </p>
+                    </section>
+                    <p id="footerLink"> Cliquez sur nos noms afin d'être redirigé vers nos pages de contact.</p>
+                </div>
+            </footer>
+        </section>
+    </main>
 
 </body>
 
 </html>
-</div>

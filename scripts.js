@@ -1,4 +1,3 @@
-/* En cours de test */
 const cards = document.querySelector(".cards");
 const modalCards = document.querySelector(".modal-cards");
 const modal2Cards = document.querySelector(".modal-2-cards");
@@ -221,9 +220,10 @@ const worksofArt = [
         texte: "'Des formes d'art, y'en a une palanquée ma gatée!' C'est en ces termes inhabituels au chaleureux parfum du sud, qu'Anthony Gorski, artiste inclassable et développeur JAVA à ses heures perdues, exposa sa vision à Wild Art Magazine durant la Windows fan expo de mars 2024. 'Je vais encore digresser mais l'idée c'était de pas être dans les codes tout en rendant le code accessible à tous, t'y as compris!' poursuivit-il. En effet, en contemplant l'oeuvre de ce perfectionniste adepte d'un minimalisme capillaire à l'entretien irréprochable, impossible de ne pas remarquer la dimension bienveillante de ce regard 'align-item : center' et de ce sourire énigmatique qui semble nous dire 'La semaine pro on fait du React, t'inquiètes le 100!'. Vous l'aurez compris, sous ce design à première vue passe-partout se cache toute la complexité d'un artiste qui se plait décidemment à jongler avec les niveaux de lecture. Un talent prometteur dont l'éclosion ne saurait tarder!",
         backgroundColor: "rgba(217, 50, 111, 0.7)", //rose
     },
-
-
 ];
+
+
+
 
 // Creation of cards
 for (let i = 0; i < worksofArt.length; i++) {
@@ -297,7 +297,8 @@ function createCard(workofArt) {
     cardLabel2.innerText = `${workofArt.label2}`;
     cardLabel.appendChild(cardLabel2);
 
-    card.addEventListener("click", () => openModal(workofArt, createModalCard, cardHeader));
+    cardBody.addEventListener("click", () => openModal(workofArt, createModalCard, cardHeader));
+    clic.addEventListener("click", () => openModal(workofArt, createModalCard, cardHeader));
 }
 
 // To create the first modal
@@ -654,4 +655,18 @@ inputEnterKey.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
         btnSearch.click();
     }
+});
+
+//Clic sur Image -> Retour Accueil
+
+const scrollTop = document.querySelectorAll(".logoSection");
+for (let i = 0; i < scrollTop.length; i++) {
+    scrollTop[i].addEventListener("click", function () {
+        window.location.href = "#myAnchor";
+    });
+}
+
+const scrollTopFooter = document.getElementById("logoFooter")
+scrollTopFooter.addEventListener("click", () => {
+    window.location.href = "#myAnchor";
 });
