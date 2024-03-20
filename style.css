@@ -67,6 +67,7 @@ button {
     scroll-snap-type: y mandatory;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 
@@ -174,6 +175,10 @@ nav {
     display: flex;
     text-align: center;
     cursor: pointer;
+}
+
+#fleche {
+    cursor: default;
 }
 
 
