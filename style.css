@@ -67,6 +67,7 @@ button {
     scroll-snap-type: y mandatory;
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 
