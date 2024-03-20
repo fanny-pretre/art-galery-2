@@ -37,7 +37,7 @@ const worksofArt = [
         copyright: "© Lady Pink Photo: Eddie Crimmins",
         label1: "Street Art",
         label2: "Société",
-        backgroundImage: "assets/oeuvre/pink.jpg",
+        backgroundImage: "assets/oeuvre/Pink.jpg",
         id: "3",
         alt: "Fresque de street art représentant une déesse amérindienne",
         keyWord: "Lady Pink Fresque Welling Court LADY PINK FRESQUE WELLING COURT Street Art STREET ART street art StreetArt STREETART streetart société Société SOCIETE ",
