@@ -34,7 +34,13 @@ header img {
 }
 
 h1 {
-    display: none;
+    margin: 0;
+    color: white;
+    text-shadow: 3px 3px 3px var(--secondary-color);
+    font-size: 3rem;
+    font-family: var(--secondary-font);
+    justify-content: center;
+    text-align: center;
 }
 
 h2 {
@@ -42,6 +48,7 @@ h2 {
     color: black;
     font-size: 1.5rem;
     margin: 0;
+    text-shadow: 2px 2px 3px white;
 }
 
 h3 {
@@ -49,6 +56,7 @@ h3 {
     color: black;
     font-size: 3rem;
     margin: 0;
+    text-shadow: 2px 2px 3px white;
 }
 
 button {
@@ -68,6 +76,14 @@ button {
     position: relative;
     z-index: 1;
     overflow-x: hidden;
+}
+
+/*Pour l'accueil*/
+.home-Flex {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
 }
 
 
@@ -185,7 +201,7 @@ nav {
 /*Pour l'accueil*/
 
 #background1 {
-    background-image: url("assets/oeuvre/chat.jpg");
+    background-image: url("assets/oeuvre/Koons.jpg");
     background-position: center;
     z-index: 9;
     cursor: default;
@@ -484,6 +500,10 @@ footer {
         height: 3.5rem;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
     .modalBtn {
         width: 1.6rem;
     }
@@ -531,6 +551,10 @@ footer {
 
     .buttonImg {
         width: 2.5rem;
+    }
+
+    h1 {
+        font-size: 5rem;
     }
 
     h2 {
@@ -590,6 +614,10 @@ footer {
     .clic {
         width: 4rem;
         height: 4rem;
+    }
+
+    h1 {
+        font-size: 6rem;
     }
 
     h2 {
@@ -660,6 +688,10 @@ footer {
     .clic {
         width: 5rem;
         height: 5rem;
+    }
+
+    h1 {
+        font-size: 7rem;
     }
 
     h2 {
