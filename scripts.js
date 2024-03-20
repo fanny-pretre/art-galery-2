@@ -9,7 +9,7 @@ const worksofArt = [
         copyright: "© SAYPE Photo: Keystone/Laurent Gillieron",
         label1: "Land Art",
         label2: "Ecologie",
-        backgroundImage: "assets/oeuvre/SAYPE.jpg",
+        backgroundImage: "assets/oeuvre/SAYPE.webp",
         id: "1",
         alt: "Oeuvre réalisée sur une montagne représentant un enfant dessinant",
         keyWord: "SAYPE Saype saype soleil lune Le soleil a rendez-vous avec la lune Lune Soleil rendez-vous RENDEZ-VOUS LAND ART Land Art Landart landart Ecologie ECOLOGIE Ecologie",
