@@ -177,6 +177,10 @@ nav {
     cursor: pointer;
 }
 
+#fleche {
+    cursor: default;
+}
+
 
 /*Pour l'accueil*/
 
