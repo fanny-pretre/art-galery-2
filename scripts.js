@@ -477,6 +477,7 @@ function openModal(workofArt, callback, header) {
 
     document.querySelector('.modal-card').classList.add('modal-open')
     document.querySelector('.sectionFooter').style.display = 'none';
+    document.querySelector('.container').style.overflow = 'hidden';
 
     //Hide header when opening the modal
     if (header != null) {
@@ -490,6 +491,7 @@ function closeModal() {
     clearModal();
     document.querySelector('.sectionFooter').style.display = 'block';
     const cardsHeader = document.querySelectorAll(".card-header");
+    document.querySelector('.container').style.overflow = 'scroll';
     cardsHeader.forEach(item => {
         if (item.style.display === 'none') {
             item.style.display = 'flex'
