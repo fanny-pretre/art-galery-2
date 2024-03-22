@@ -213,8 +213,8 @@ nav {
 /*Pour l'accueil*/
 
 #background1 {
-    background-image: url("assets/oeuvre/Koons.jpg");
-    background-position: center;
+    background-image: url("assets/oeuvre/chat1.jpg");
+    background-position: bottom;
     z-index: 9;
     cursor: default;
 }
