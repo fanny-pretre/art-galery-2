@@ -43,6 +43,10 @@ h1 {
     text-align: center;
 }
 
+h1::selection {
+    background-color: var(--quaternary-color);
+}
+
 h2 {
     font-family: var(--secondary-font);
     color: black;
@@ -51,12 +55,20 @@ h2 {
     text-shadow: 2px 2px 3px white;
 }
 
+h2::selection {
+    background-color: var(--quaternary-color);
+}
+
 h3 {
     font-family: var(--primary-font);
     color: black;
     font-size: 3rem;
     margin: 0;
     text-shadow: 2px 2px 3px white;
+}
+
+h3::selection {
+    background-color: var(--quaternary-color);
 }
 
 button {
