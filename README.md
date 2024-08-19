@@ -1,6 +1,6 @@
 <h1 align="center"> 🖼️ Bienvenue chez Virtu'Art! 🖼️ </h1>
 <p align="center">
-<img  src="./client/src/assets/images/notfound/Visuel.png" alt="Visuel Virtu'Art" />
+<img  src="./Header Virtu'Art.jpg" alt="Visuel Virtu'Art" />
 </p>
 <br>
 
