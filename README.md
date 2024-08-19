@@ -48,7 +48,7 @@ Virtu'Art est un prototype de site web créé par une équipe de quatre étudian
 - [David Lanzetti](https://www.linkedin.com/in/david-lanzetti/?originalSubdomain=fr)
 - [Nicolas Loza](https://github.com/Nicolas4Loza/)
 
-Remerciements particuliers à notre instructeur et mentor ([Anthony Gorski](https://fr.linkedin.com/in/anthony-gorski) de la Wild Code School pour ses conseils et son soutien tout au long du processus de développement.
+Remerciements particuliers à notre instructeur et mentor ([Anthony Gorski](https://fr.linkedin.com/in/anthony-gorski)) de la Wild Code School pour ses conseils et son soutien tout au long du processus de développement.
 <br>
 <br>
 <br>
